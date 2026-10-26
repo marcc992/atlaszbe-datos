@@ -1,0 +1,2 @@
+# Los CSV van tal cual (RFC 4180: CRLF y BOM UTF-8); git no debe tocar los finales de línea.
+*.csv -text
