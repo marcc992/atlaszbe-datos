@@ -5,6 +5,149 @@
    "fecha": "2026-10-26",
    "ambito": "zona",
    "tipo": "cambio",
+   "id": "28065-zbe-getafe",
+   "nombre": "ZBE Getafe",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08307-zbe-vilanova-i-la-geltru",
+   "nombre": "ZBE Vilanova i la Geltrú",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08056-zbe-castelldefels",
+   "nombre": "ZBE Castelldefels",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "09059-zbe-burgos",
+   "nombre": "ZBE Burgos",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "39087-zbe-torrelavega",
+   "nombre": "ZBE Torrelavega",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "24089-zbe-leon",
+   "nombre": "ZBE León",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "39075-zbe-santander",
+   "nombre": "ZBE Santander",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "45165-zbe-2-talavera",
+   "nombre": "ZBE 2 Casco Histórico (Talavera de la Reina)",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "45165-zbe-1-talavera",
+   "nombre": "ZBE 1 Trinidad (Talavera de la Reina)",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "24115-zbe-ponferrada",
+   "nombre": "ZBE Ponferrada",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "32054-zbe-ourense",
+   "nombre": "ZBE Ourense Centro",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
    "id": "08019-zbe-barcelona",
    "nombre": "ZBE Barcelona",
    "campos": [
