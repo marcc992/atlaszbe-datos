@@ -22,12 +22,23 @@ fuente oficial y la fecha en que se comprobó.
 | `data/municipios.json` | Municipios del inventario del MITECO con su estado (ZBE vigente, en trámite o pendiente) y sus zonas. |
 | `data/zonas.csv`, `data/municipios.csv` | Lo mismo en tablas, para hojas de cálculo (UTF-8 con BOM). |
 | `data/cambios.json` | Cambios de los últimos 90 días: altas, bajas y cambios de reglas, perímetro, estado o capa editorial. |
-| `data/osm-zonas.geojson` | Zonas de OpenStreetMap que no publica ninguna fuente oficial (perímetro aproximado; © colaboradores de OpenStreetMap). |
+| `data/osm-zonas.geojson` | **Pistas sin verificar**: ZBE que voluntarios han dibujado en OpenStreetMap y que ninguna fuente oficial publica (ver abajo). |
 | `data/meta.json` | Versión de los datos, fecha, recuentos y estado de cada fuente. |
 | `schema/*.schema.json` | JSON Schema (draft 2020-12) de cada fichero JSON y GeoJSON. |
 
 `v1` solo gana campos: no se quitan ni cambian de significado. Los esquemas no
 cierran los objetos, así que un campo nuevo no rompe a quien valide con ellos.
+
+### Sobre `osm-zonas.geojson`
+
+No forma parte de los datos verificados. Son perímetros que alguien ha dibujado
+en OpenStreetMap (etiqueta `boundary=low_emission_zone`) en municipios para los
+que ninguna fuente oficial publica todavía la ZBE. Pueden estar desactualizados,
+ser zonas solo previstas o no coincidir con la ordenanza, y no llevan reglas,
+estado ni ficha: solo el perímetro aproximado y las etiquetas de OpenStreetMap
+tal cual. Sirven como pista. Cuando una se confirma con fuentes oficiales, pasa a
+`zonas.json` como zona propia y sale de este fichero. © colaboradores de
+OpenStreetMap, ODbL.
 
 ## Lo esencial de cada zona
 

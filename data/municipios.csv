@@ -20,7 +20,7 @@
 07040,Palma,Illes Balears,Illes Balears,vigente,1,07040-ayuntamiento-de-palma,2026-10-02
 08015,Badalona,Barcelona,Cataluña,vigente,0,,2026-10-02
 08019,Barcelona,Barcelona,Cataluña,vigente,1,08019-zbe-barcelona,2026-10-02
-08056,Castelldefels,Barcelona,Cataluña,vigente,0,,2026-10-02
+08056,Castelldefels,Barcelona,Cataluña,vigente,1,08056-zbe-castelldefels,2026-10-02
 08073,Cornellà de Llobregat,Barcelona,Cataluña,vigente,1,08073-zbe-cornella-de-llobregat,2026-10-02
 08077,Esplugues de Llobregat,Barcelona,Cataluña,vigente,1,08077-zbe-esplugues-de-llobregat,2026-10-02
 08089,Gavà,Barcelona,Cataluña,vigente,1,08089-zbe-gava,2026-10-02
@@ -41,8 +41,8 @@
 08266,Cerdanyola del Vallès,Barcelona,Cataluña,vigente,1,08266-cerdanyola-del-valles,2026-10-02
 08279,Terrassa,Barcelona,Cataluña,vigente,1,08279-zbe-terrassa,2026-10-02
 08301,Viladecans,Barcelona,Cataluña,vigente,1,08301-zbe-viladecans,2026-10-02
-08307,Vilanova i la Geltrú,Barcelona,Cataluña,en_tramite,0,,2026-10-02
-09059,Burgos,Burgos,Castilla y León,vigente,0,,2026-10-02
+08307,Vilanova i la Geltrú,Barcelona,Cataluña,en_tramite,1,08307-zbe-vilanova-i-la-geltru,2026-10-02
+09059,Burgos,Burgos,Castilla y León,vigente,1,09059-zbe-burgos,2026-10-02
 10037,Cáceres,Cáceres,Extremadura,vigente,0,,2026-10-02
 11004,Algeciras,Cádiz,Andalucía,en_tramite,0,,2026-10-02
 11012,Cádiz,Cádiz,Andalucía,vigente,0,,2026-10-02
@@ -70,8 +70,8 @@
 22125,Huesca,Huesca,Aragón,vigente,0,,2026-10-02
 23050,Jaén,Jaén,Andalucía,en_tramite,0,,2026-10-02
 23055,Linares,Jaén,Andalucía,vigente,0,,2026-10-02
-24089,León,León,Castilla y León,vigente,0,,2026-10-02
-24115,Ponferrada,León,Castilla y León,vigente,0,,2026-10-02
+24089,León,León,Castilla y León,vigente,1,24089-zbe-leon,2026-10-02
+24115,Ponferrada,León,Castilla y León,vigente,1,24115-zbe-ponferrada,2026-10-02
 25120,Lleida,Lleida,Cataluña,vigente,1,25120-zbe-lleida,2026-10-02
 26089,Logroño,La Rioja,La Rioja,en_tramite,0,,2026-10-02
 27028,Lugo,Lugo,Galicia,en_tramite,0,,2026-10-02
@@ -85,7 +85,7 @@
 28047,Collado Villalba,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
 28049,Coslada,Madrid,Comunidad de Madrid,pendiente,0,,2026-10-02
 28058,Fuenlabrada,Madrid,Comunidad de Madrid,vigente,1,28058-fuenlabrada,2026-10-02
-28065,Getafe,Madrid,Comunidad de Madrid,vigente,0,,2026-10-02
+28065,Getafe,Madrid,Comunidad de Madrid,vigente,1,28065-zbe-getafe,2026-10-02
 28074,Leganés,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
 28079,Madrid,Madrid,Comunidad de Madrid,vigente,3,28079-madrid-madrid-zbe 28079-madrid-zbedep-plaza-eliptica 28079-madrid-zbedpe-distrito-centro,2026-10-02
 28080,Majadahonda,Madrid,Comunidad de Madrid,vigente,0,,2026-10-02
@@ -113,7 +113,7 @@
 30027,Molina de Segura,Murcia,Región de Murcia,vigente,1,30027-molina-de-segura,2026-10-02
 30030,Murcia,Murcia,Región de Murcia,en_tramite,0,,2026-10-02
 31201,Pamplona/Iruña,Navarra,Comunidad Foral de Navarra,vigente,1,31201-zbe-casco-antiguo,2026-10-02
-32054,Ourense,Ourense,Galicia,vigente,0,,2026-10-02
+32054,Ourense,Ourense,Galicia,vigente,1,32054-zbe-ourense,2026-10-02
 33004,Avilés,Asturias,Principado de Asturias,en_tramite,0,,2026-10-02
 33024,Gijón,Asturias,Principado de Asturias,en_tramite,0,,2026-10-02
 33044,Oviedo,Asturias,Principado de Asturias,vigente,1,33044-ayuntamiento-de-oviedo-anillo-interior,2026-10-02
@@ -131,8 +131,8 @@
 38017,Granadilla de Abona,Santa Cruz de Tenerife,Canarias,pendiente,0,,2026-10-02
 38023,San Cristóbal de La Laguna,Santa Cruz de Tenerife,Canarias,pendiente,0,,2026-10-02
 38038,Santa Cruz de Tenerife,Santa Cruz de Tenerife,Canarias,en_tramite,0,,2026-10-02
-39075,Santander,Cantabria,Cantabria,en_tramite,0,,2026-10-02
-39087,Torrelavega,Cantabria,Cantabria,vigente,0,,2026-10-02
+39075,Santander,Cantabria,Cantabria,en_tramite,1,39075-zbe-santander,2026-10-02
+39087,Torrelavega,Cantabria,Cantabria,vigente,1,39087-zbe-torrelavega,2026-10-02
 40194,Segovia,Segovia,Castilla y León,vigente,0,,2026-10-02
 41004,Alcalá de Guadaíra,Sevilla,Andalucía,vigente,0,,2026-10-02
 41038,Dos Hermanas,Sevilla,Andalucía,en_tramite,1,41038-zbe-dos-hermanas-parque-tecnologico,2026-10-02
@@ -140,7 +140,7 @@
 41095,Utrera,Sevilla,Andalucía,en_tramite,0,,2026-10-02
 43123,Reus,Tarragona,Cataluña,vigente,1,43123-zbe-reus,2026-10-02
 43148,Tarragona,Tarragona,Cataluña,en_tramite,1,43148-zbe-tarragona,2026-10-02
-45165,Talavera de la Reina,Toledo,Castilla-La Mancha,en_tramite,0,,2026-10-02
+45165,Talavera de la Reina,Toledo,Castilla-La Mancha,en_tramite,2,45165-zbe-1-talavera 45165-zbe-2-talavera,2026-10-02
 45168,Toledo,Toledo,Castilla-La Mancha,en_tramite,0,,2026-10-02
 46131,Gandia,Valencia/València,Comunitat Valenciana,en_tramite,0,,2026-10-02
 46190,Paterna,Valencia/València,Comunitat Valenciana,en_tramite,0,,2026-10-02

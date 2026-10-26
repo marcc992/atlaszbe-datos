@@ -41,7 +41,8 @@
                 "type": "string",
                 "enum": [
                   "nap",
-                  "municipal"
+                  "municipal",
+                  "osm"
                 ]
               },
               "fuenteId": {

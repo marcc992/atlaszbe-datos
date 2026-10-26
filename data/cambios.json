@@ -5,6 +5,322 @@
    "fecha": "2026-10-26",
    "ambito": "zona",
    "tipo": "cambio",
+   "id": "08019-zbe-barcelona",
+   "nombre": "ZBE Barcelona",
+   "campos": [
+    "editorial.ambito"
+   ],
+   "detalle": [
+    "ambito: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08101-zbe-l-hospitalet-de-llobregat",
+   "nombre": "ZBE L'Hospitalet de Llobregat",
+   "campos": [
+    "editorial.ambito"
+   ],
+   "detalle": [
+    "ambito: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08073-zbe-cornella-de-llobregat",
+   "nombre": "ZBE Cornellà de Llobregat",
+   "campos": [
+    "editorial.ambito"
+   ],
+   "detalle": [
+    "ambito: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08077-zbe-esplugues-de-llobregat",
+   "nombre": "ZBE Esplugues de Llobregat",
+   "campos": [
+    "editorial.ambito"
+   ],
+   "detalle": [
+    "ambito: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08194-zbe-sant-adria-de-besos",
+   "nombre": "ZBE Sant Adrià de Besòs",
+   "campos": [
+    "editorial.ambito"
+   ],
+   "detalle": [
+    "ambito: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28065-zbe-getafe",
+   "nombre": "ZBE Getafe",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, aviso sin multa, desde 27/01/2025, hasta 23/02/2025, L-D 00:00–24:00 · prohibidas A, desde 24/02/2025, L-D 00:00–24:00 · B solo para aparcar, no domiciliados, turismos, furgonetas, camiones, autobuses (motos, ciclomotores, triciclos y cuatriciclos con etiqueta B entran libremente), desde 24/02/2025, L-D 00:00–24:00 · prohibidas C, B, A, solo en episodios de contaminación, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08307-zbe-vilanova-i-la-geltru",
+   "nombre": "ZBE Vilanova i la Geltrú",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, turismos, motos, ciclomotores, desde 01/07/2026, L-V 07:00–20:00 no festivos · prohibidas A, no domiciliados, furgonetas, camiones, autobuses, desde 01/07/2027, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08056-zbe-castelldefels",
+   "nombre": "ZBE Castelldefels",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "09059-zbe-burgos",
+   "nombre": "ZBE Burgos",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, aviso sin multa, desde 06/02/2026, hasta 05/08/2027, L-D 00:00–24:00 · prohibidas A, desde 06/08/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "39087-zbe-torrelavega",
+   "nombre": "ZBE Torrelavega",
+   "campos": [],
+   "detalle": [
+    "activa; A con condiciones, aviso sin multa, desde 09/08/2024, hasta 09/06/2025, L-S 00:00–24:00 no festivos · A con condiciones, desde 10/06/2025, L-S 00:00–24:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "24089-zbe-leon",
+   "nombre": "ZBE León",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas B, A, solo en episodios de contaminación, desde 07/11/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "39075-zbe-santander",
+   "nombre": "ZBE Santander",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, aviso sin multa, desde 31/12/2025, hasta 28/02/2026, L-V 08:00–19:00 no festivos · prohibidas A, desde 01/03/2026, L-V 08:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "45165-zbe-2-talavera",
+   "nombre": "ZBE 2 Casco Histórico (Talavera de la Reina)",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas B, A, solo en episodios de contaminación, aviso sin multa, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "45165-zbe-1-talavera",
+   "nombre": "ZBE 1 Trinidad (Talavera de la Reina)",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas B, A, solo en episodios de contaminación, aviso sin multa, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "24115-zbe-ponferrada",
+   "nombre": "ZBE Ponferrada",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, solo en episodios de contaminación, aviso sin multa, desde 12/12/2024, hasta 30/06/2027, L-D 00:00–24:00 · prohibidas A, solo en episodios de contaminación, desde 01/07/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "32054-zbe-ourense",
+   "nombre": "ZBE Ourense Centro",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, aviso sin multa, desde 26/12/2025, hasta 30/06/2026, L-D 00:00–24:00 · prohibidas A, desde 01/07/2026, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08056",
+   "nombre": "Castelldefels",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08056-zbe-castelldefels"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08307",
+   "nombre": "Vilanova i la Geltrú",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08307-zbe-vilanova-i-la-geltru"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "09059",
+   "nombre": "Burgos",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +09059-zbe-burgos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "24089",
+   "nombre": "León",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +24089-zbe-leon"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "24115",
+   "nombre": "Ponferrada",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +24115-zbe-ponferrada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28065",
+   "nombre": "Getafe",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28065-zbe-getafe"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "32054",
+   "nombre": "Ourense",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +32054-zbe-ourense"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "39075",
+   "nombre": "Santander",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +39075-zbe-santander"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "39087",
+   "nombre": "Torrelavega",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +39087-zbe-torrelavega"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "45165",
+   "nombre": "Talavera de la Reina",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +45165-zbe-1-talavera, +45165-zbe-2-talavera"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
    "id": "15030-a-coruna-marina",
    "nombre": "A Coruña - Marina",
    "campos": [
