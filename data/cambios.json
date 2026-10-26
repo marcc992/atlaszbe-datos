@@ -1,0 +1,1258 @@
+{
+ "dias": 90,
+ "cambios": [
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "15030-a-coruna-marina",
+   "nombre": "A Coruña - Marina",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "15030-a-coruna-ciudad-vieja",
+   "nombre": "A Coruña - Ciudad Vieja",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28005-ayuntamiento-de-alcala-de-henares",
+   "nombre": "Ayuntamiento de Alcalá de Henares",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "03014-zbe-alicante",
+   "nombre": "ZBE Alicante",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "03014-anillo-1-casco-historico-zbe-alicante",
+   "nombre": "Anillo 1 Casco Histórico ZBE Alicante",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "48020-zbe-bilbao",
+   "nombre": "ZBE Bilbao",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "30016-cartagena-ensanche",
+   "nombre": "Cartagena ensanche",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "30016-cartagena-centro",
+   "nombre": "Cartagena centro",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "12040-castellon-zbe",
+   "nombre": "Castellon ZBE",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "20069-zbe-donostia-san-sebastian",
+   "nombre": "ZBE Donostia / San Sebastián",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28058-fuenlabrada",
+   "nombre": "Fuenlabrada",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "18087-granada",
+   "nombre": "Granada",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "25120-zbe-lleida",
+   "nombre": "ZBE Lleida",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "29067-ayuntamiento-de-malaga-zbe",
+   "nombre": "Ayuntamiento de Malaga ZBE",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "33044-ayuntamiento-de-oviedo-anillo-interior",
+   "nombre": "Ayuntamiento de Oviedo - Anillo Interior",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "07040-ayuntamiento-de-palma",
+   "nombre": "Ayuntamiento de Palma",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08187-sabadell",
+   "nombre": "Sabadell",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "37274-salamanca-zbe",
+   "nombre": "Salamanca ZBE",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "43148-zbe-tarragona",
+   "nombre": "ZBE Tarragona",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08279-zbe-terrassa",
+   "nombre": "ZBE Terrassa",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "47186-valladolid",
+   "nombre": "Valladolid",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "01059-ayuntamiento-de-vitoria-gasteiz",
+   "nombre": "Ayuntamiento de Vitoria-Gasteiz",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "31201-zbe-casco-antiguo",
+   "nombre": "ZBE Casco Antiguo",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "12040-castellon-zbe",
+   "nombre": "Castellon ZBE",
+   "campos": [
+    "confianza",
+    "reglas"
+   ],
+   "detalle": [
+    "confianza: media → alta",
+    "reglas: prohibidas ¿?, solo en episodios de contaminación, desde 01/01/2026, L-D 00:00–24:00 → prohibidas ¿?, solo en episodios de contaminación, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "20069-zbe-donostia-san-sebastian",
+   "nombre": "ZBE Donostia / San Sebastián",
+   "campos": [
+    "confianza",
+    "reglas"
+   ],
+   "detalle": [
+    "confianza: media → alta",
+    "reglas: prohibidas A, desde 14/03/2025, L-D 00:00–24:00 · prohibidas B, A, desde 14/12/2027, L-D 00:00–24:00 → prohibidas A, desde 14/03/2025, L-D 00:00–24:00 · prohibidas B, A, desde 14/12/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "25120-zbe-lleida",
+   "nombre": "ZBE Lleida",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 01/07/2025, L-V 07:00–20:00 no festivos · prohibidas B, solo en episodios de contaminación, desde 01/01/2026, L-V 07:00–20:00 no festivos · prohibidas B, A, no domiciliados, desde 01/01/2028, L-V 07:00–20:00 no festivos → prohibidas A, no domiciliados, aviso sin multa, desde 01/01/2025, hasta 30/06/2025, L-V 07:00–20:00 no festivos · prohibidas A, no domiciliados, desde 01/07/2025, L-V 07:00–20:00 no festivos · prohibidas B, solo en episodios de contaminación, desde 01/01/2026, L-V 07:00–20:00 no festivos · prohibidas B, A, no domiciliados, desde 01/01/2028, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "37274-salamanca-zbe",
+   "nombre": "Salamanca ZBE",
+   "campos": [
+    "estado",
+    "estadoSancion",
+    "reglas"
+   ],
+   "detalle": [
+    "estado: programada → activa",
+    "para quien conduce: aprobada_sin_aplicar → sanciona",
+    "reglas: prohibidas A, desde 01/01/2029, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2034, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2039, L-D 00:00–24:00 → solo autorizados, desde 01/07/2025, L-D 00:00–24:00 · prohibidas A, desde 01/01/2029, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2034, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2039, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "43148-zbe-tarragona",
+   "nombre": "ZBE Tarragona",
+   "campos": [
+    "confianza",
+    "reglas"
+   ],
+   "detalle": [
+    "confianza: media → alta",
+    "reglas: prohibidas A, no domiciliados, desde 31/12/2025, hasta 31/12/2026, L-V 07:00–19:00 no festivos · prohibidas A, desde 01/01/2027, L-V 07:00–19:00 no festivos · prohibidas B, A, desde 01/01/2028, L-V 07:00–19:00 no festivos → prohibidas A, no domiciliados, desde 31/12/2025, hasta 31/12/2026, L-V 07:00–19:00 no festivos · prohibidas A, desde 01/01/2027, L-V 07:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "15030-a-coruna-marina",
+   "nombre": "A Coruña - Marina",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: solo autorizados, desde 29/09/2025, L-D 00:00–24:00 → solo autorizados, desde 21/10/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "15030-a-coruna-ciudad-vieja",
+   "nombre": "A Coruña - Ciudad Vieja",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: solo autorizados, desde 29/09/2025, L-D 00:00–24:00 → solo autorizados, desde 21/10/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28005-ayuntamiento-de-alcala-de-henares",
+   "nombre": "Ayuntamiento de Alcalá de Henares",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, solo en episodios de contaminación, desde 27/10/2025, L-D 00:00–24:00 → prohibidas A, solo en episodios de contaminación, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "03014-zbe-alicante",
+   "nombre": "ZBE Alicante",
+   "campos": [
+    "confianza"
+   ],
+   "detalle": [
+    "confianza: media → baja"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "03014-anillo-1-casco-historico-zbe-alicante",
+   "nombre": "Anillo 1 Casco Histórico ZBE Alicante",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: solo autorizados, desde 30/01/2025, L-D 00:00–24:00 → solo autorizados, desde 30/01/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "48020-zbe-bilbao",
+   "nombre": "ZBE Bilbao",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas B, A, desde 15/06/2025, L-V 07:00–20:00 no festivos → prohibidas A, desde 16/09/2024, hasta 14/06/2025, L-V 07:00–20:00 no festivos · prohibidas B, A, desde 15/06/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28058-fuenlabrada",
+   "nombre": "Fuenlabrada",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 15/02/2025, L-D 00:00–24:00 → prohibidas A, desde 15/02/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "29067-ayuntamiento-de-malaga-zbe",
+   "nombre": "Ayuntamiento de Malaga ZBE",
+   "campos": [
+    "confianza"
+   ],
+   "detalle": [
+    "confianza: media → alta"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "07040-ayuntamiento-de-palma",
+   "nombre": "Ayuntamiento de Palma",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2027, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00 → prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2027, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08187-sabadell",
+   "nombre": "Sabadell",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 01/12/2025, L-V 07:00–20:00 no festivos → prohibidas A, desde 01/12/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "47186-valladolid",
+   "nombre": "Valladolid",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2028, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00 → prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2028, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00 · prohibidas C, B, A, solo en episodios de contaminación, desde 28/02/2025, L-D 09:00–21:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "01059-ayuntamiento-de-vitoria-gasteiz",
+   "nombre": "Ayuntamiento de Vitoria-Gasteiz",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 15/12/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2030, L-D 00:00–24:00 → prohibidas A, aviso sin multa, desde 15/09/2025, hasta 14/12/2025, L-D 00:00–24:00 · prohibidas A, desde 15/12/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2030, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "31201-zbe-casco-antiguo",
+   "nombre": "ZBE Casco Antiguo",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, desde 29/12/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "baja",
+   "id": "31201-pamplona-ensanche",
+   "nombre": "Pamplona - Ensanche",
+   "campos": [],
+   "detalle": [
+    "deja de publicarse (estaba sin_verificar)"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "31201",
+   "nombre": "Pamplona/Iruña",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +31201-zbe-casco-antiguo, −31201-pamplona-ensanche"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28079-madrid-madrid-zbe",
+   "nombre": "Madrid (Madrid ZBE)",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28079-madrid-zbedep-plaza-eliptica",
+   "nombre": "Madrid (ZBEDEP Plaza Elíptica)",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28079-madrid-zbedpe-distrito-centro",
+   "nombre": "Madrid (ZBEDPE Distrito Centro)",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08019-zbe-barcelona",
+   "nombre": "ZBE Barcelona",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08101-zbe-l-hospitalet-de-llobregat",
+   "nombre": "ZBE L'Hospitalet de Llobregat",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08073-zbe-cornella-de-llobregat",
+   "nombre": "ZBE Cornellà de Llobregat",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08077-zbe-esplugues-de-llobregat",
+   "nombre": "ZBE Esplugues de Llobregat",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08194-zbe-sant-adria-de-besos",
+   "nombre": "ZBE Sant Adrià de Besòs",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "41091-zbe-sevilla-cartuja",
+   "nombre": "ZBE SEVILLA CARTUJA",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "46250-valencia",
+   "nombre": "Valencia",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "50297-zbe-casco-historico",
+   "nombre": "ZBE 1 Casco Histórico",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "50297-zbe-centro",
+   "nombre": "ZBE 2 Centro",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "46250-zbe-ciutat-vella",
+   "nombre": "ZBE Ciutat Vella (APR Ciutat Vella Nord)",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08073-zbe-cornella-de-llobregat",
+   "nombre": "ZBE Cornellà de Llobregat",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 06/02/2025, L-V 07:00–20:00 no festivos → prohibidas A, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08019-zbe-barcelona",
+   "nombre": "ZBE Barcelona",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, desde 15/09/2020, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08101-zbe-l-hospitalet-de-llobregat",
+   "nombre": "ZBE L'Hospitalet de Llobregat",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, desde 30/12/2025, L-V 07:00–20:00 no festivos · prohibidas B, A, turismos, motos, ciclomotores, desde 01/01/2028, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08073-zbe-cornella-de-llobregat",
+   "nombre": "ZBE Cornellà de Llobregat",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, desde 06/02/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08077-zbe-esplugues-de-llobregat",
+   "nombre": "ZBE Esplugues de Llobregat",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, desde 24/12/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08194-zbe-sant-adria-de-besos",
+   "nombre": "ZBE Sant Adrià de Besòs",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, desde 27/03/2024, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "baja",
+   "id": "08019-zbe-rondes-barcelona",
+   "nombre": "ZBE Rondes Barcelona",
+   "campos": [],
+   "detalle": [
+    "deja de publicarse (estaba activa)"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08019",
+   "nombre": "Barcelona",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08019-zbe-barcelona, −08019-zbe-rondes-barcelona"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08073",
+   "nombre": "Cornellà de Llobregat",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08073-zbe-cornella-de-llobregat, −08019-zbe-rondes-barcelona"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08077",
+   "nombre": "Esplugues de Llobregat",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08077-zbe-esplugues-de-llobregat, −08019-zbe-rondes-barcelona"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08101",
+   "nombre": "L'Hospitalet de Llobregat",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08101-zbe-l-hospitalet-de-llobregat, −08019-zbe-rondes-barcelona"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08194",
+   "nombre": "Sant Adrià de Besòs",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08194-zbe-sant-adria-de-besos, −08019-zbe-rondes-barcelona"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "48020-zbe-bilbao",
+   "nombre": "ZBE Bilbao",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas B, A, desde 15/06/2025, L-V 07:00–20:00 no festivos → prohibidas B, A, desde 15/06/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08266-cerdanyola-del-valles",
+   "nombre": "Cerdanyola del Valles",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 01/01/2025, hasta 31/12/2027, L-V 07:00–20:00 no festivos · prohibidas A, desde 01/01/2028, L-V 07:00–20:00 no festivos → prohibidas A, no domiciliados, desde 01/01/2025, hasta 31/12/2027, L-V 07:00–20:00 no festivos · prohibidas A, desde 01/01/2028, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "20069-zbe-donostia-san-sebastian",
+   "nombre": "ZBE Donostia / San Sebastián",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 14/03/2025, L-D 00:00–24:00 · prohibidas B, A, desde 14/12/2027, L-D 00:00–24:00 → prohibidas A, desde 14/03/2025, L-D 00:00–24:00 · prohibidas B, A, desde 14/12/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08169-zbe-el-prat-del-llobregat",
+   "nombre": "ZBE El Prat del Llobregat",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 24/10/2024, L-V 07:00–20:00 no festivos → prohibidas A, desde 24/10/2024, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28079-madrid-madrid-zbe",
+   "nombre": "Madrid (Madrid ZBE)",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, turismos, desde 01/01/2025, L-D 00:00–24:00 · prohibidas A, solo en episodios de contaminación, desde 07/04/2026, L-D 00:00–24:00 → prohibidas A, no domiciliados, turismos, desde 01/01/2025, L-D 00:00–24:00 · prohibidas A, solo en episodios de contaminación, desde 07/04/2026, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "30027-molina-de-segura",
+   "nombre": "Molina de Segura",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, turismos, furgonetas, camiones (motos y ciclomotores exentos), aviso sin multa, desde 01/01/2025, hasta 03/01/2028, L-D 00:00–24:00 · prohibidas A, turismos, furgonetas, camiones (motos y ciclomotores exentos), desde 03/01/2028, L-D 00:00–24:00 → prohibidas A, turismos, furgonetas, camiones (motos y ciclomotores exentos), aviso sin multa, desde 01/01/2025, hasta 03/01/2028, L-D 00:00–24:00 · prohibidas A, turismos, furgonetas, camiones (motos y ciclomotores exentos), desde 03/01/2028, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "33044-ayuntamiento-de-oviedo-anillo-interior",
+   "nombre": "Ayuntamiento de Oviedo - Anillo Interior",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 31/12/2025, L-D 00:00–24:00 → prohibidas A, desde 31/12/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "07040-ayuntamiento-de-palma",
+   "nombre": "Ayuntamiento de Palma",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2027, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00 → prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2027, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "43123-zbe-reus",
+   "nombre": "ZBE Reus",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 01/12/2025, hasta 30/12/2027, L-V 07:00–19:00 no festivos · prohibidas B, A, desde 31/12/2027, L-V 07:00–19:00 no festivos → prohibidas A, no domiciliados, desde 01/12/2025, hasta 30/12/2027, L-V 07:00–19:00 no festivos · prohibidas B, A, desde 31/12/2027, L-V 07:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "41091-zbe-sevilla-cartuja",
+   "nombre": "ZBE SEVILLA CARTUJA",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, turismos, furgonetas (furgonetas ligeras; motos, autobuses y camiones de hasta 12 t exentos; los de más de 12 t necesitan autorización expresa), desde 01/01/2023, L-V 07:00–19:00 no festivos → prohibidas A, turismos, furgonetas (furgonetas ligeras; motos, autobuses y camiones de hasta 12 t exentos; los de más de 12 t necesitan autorización expresa), desde 01/01/2023, L-V 07:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "43148-zbe-tarragona",
+   "nombre": "ZBE Tarragona",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 31/12/2025, hasta 31/12/2026, L-V 07:00–19:00 no festivos · prohibidas A, desde 01/01/2027, L-V 07:00–19:00 no festivos · prohibidas B, A, desde 01/01/2028, L-V 07:00–19:00 no festivos → prohibidas A, no domiciliados, desde 31/12/2025, hasta 31/12/2026, L-V 07:00–19:00 no festivos · prohibidas A, desde 01/01/2027, L-V 07:00–19:00 no festivos · prohibidas B, A, desde 01/01/2028, L-V 07:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "47186-valladolid",
+   "nombre": "Valladolid",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2028, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00 → prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2028, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "01059-ayuntamiento-de-vitoria-gasteiz",
+   "nombre": "Ayuntamiento de Vitoria-Gasteiz",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 15/12/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2030, L-D 00:00–24:00 → prohibidas A, desde 15/12/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2030, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "46250-zbe-ciutat-vella",
+   "nombre": "ZBE Ciutat Vella (APR Ciutat Vella Nord)",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, desde 01/12/2021, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-26",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "46250",
+   "nombre": "València",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +46250-zbe-ciutat-vella"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28079-madrid-madrid-zbe",
+   "nombre": "Madrid (Madrid ZBE)",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, turismos, desde 2025-01-01, L-D 00:00–24:00 · prohibidas A, solo en episodios de contaminación, desde 2025-06-03, L-D 00:00–24:00 → prohibidas A, no domiciliados, turismos, desde 2025-01-01, L-D 00:00–24:00 · prohibidas A, solo en episodios de contaminación, desde 2026-04-07, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "41091-zbe-sevilla-cartuja",
+   "nombre": "ZBE SEVILLA CARTUJA",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, turismos, furgonetas (furgonetas ligeras; motos, camiones de más de 3,5 t y autobuses exentos), desde 2023-01-01, L-V 07:00–19:00 no festivos → prohibidas A, turismos, furgonetas (furgonetas ligeras; motos, autobuses y camiones de hasta 12 t exentos; los de más de 12 t necesitan autorización expresa), desde 2023-01-01, L-V 07:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "50297-zbe-casco-historico",
+   "nombre": "ZBE 1 Casco Histórico",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 2025-12-12, L-V 08:00–20:00 → prohibidas A, desde 2025-12-12, L-V 08:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "50297-zbe-centro",
+   "nombre": "ZBE 2 Centro",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, aviso sin multa, desde 2030-01-01, hasta 2030-06-30, L-V 08:00–20:00 · prohibidas A, desde 2030-07-01, L-V 08:00–20:00 → prohibidas A, aviso sin multa, desde 2030-01-01, hasta 2030-06-30, L-V 08:00–20:00 no festivos · prohibidas A, desde 2030-07-01, L-V 08:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28079-madrid-madrid-zbe",
+   "nombre": "Madrid (Madrid ZBE)",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 2025-01-01, L-D 00:00–24:00 · prohibidas A, solo en episodios de contaminación, desde 2025-06-03, L-D 00:00–24:00 → prohibidas A, no domiciliados, turismos, desde 2025-01-01, L-D 00:00–24:00 · prohibidas A, solo en episodios de contaminación, desde 2025-06-03, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08112-zbe-manlleu",
+   "nombre": "ZBE Manlleu",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas C, B, A, de 12 t o más, desde 2026-05-16, L-D 00:00–24:00 → prohibidas C, B, A, de 12 t o más (vehículos pesados), desde 2026-05-16, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "30027-molina-de-segura",
+   "nombre": "Molina de Segura",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, aviso sin multa, desde 2025-01-01, hasta 2028-01-03, L-D 00:00–24:00 · prohibidas A, desde 2028-01-03, L-D 00:00–24:00 → prohibidas A, turismos, furgonetas, camiones (motos y ciclomotores exentos), aviso sin multa, desde 2025-01-01, hasta 2028-01-03, L-D 00:00–24:00 · prohibidas A, turismos, furgonetas, camiones (motos y ciclomotores exentos), desde 2028-01-03, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "18140-motril-zbe",
+   "nombre": "Motril ZBE",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas B, A, no domiciliados, desde 2028-04-11, L-D 00:00–24:00 → prohibidas B, A, no domiciliados, turismos, motos, desde 2028-04-11, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08184-zbe-rubi",
+   "nombre": "ZBE Rubí",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 2025-12-31, L-V 07:00–20:00 no festivos · prohibidas B, solo en episodios de contaminación, desde 2026-01-01, L-V 07:00–20:00 no festivos · prohibidas B, A, desde 2028-01-01, L-V 07:00–20:00 no festivos → prohibidas A, desde 2025-12-31, L-V 07:00–20:00 no festivos · prohibidas B, diésel, solo en episodios de contaminación, desde 2026-01-01, L-V 07:00–20:00 no festivos · prohibidas B, A, desde 2028-01-01, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "41091-zbe-sevilla-cartuja",
+   "nombre": "ZBE SEVILLA CARTUJA",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 2023-01-01, L-V 07:00–19:00 no festivos → prohibidas A, turismos, furgonetas (furgonetas ligeras; motos, camiones de más de 3,5 t y autobuses exentos), desde 2023-01-01, L-V 07:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08073",
+   "nombre": "Cornellà de Llobregat",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08019-zbe-rondes-barcelona"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08077",
+   "nombre": "Esplugues de Llobregat",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08019-zbe-rondes-barcelona"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08101",
+   "nombre": "L'Hospitalet de Llobregat",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08019-zbe-rondes-barcelona"
+   ]
+  },
+  {
+   "fecha": "2026-10-23",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08194",
+   "nombre": "Sant Adrià de Besòs",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08019-zbe-rondes-barcelona"
+   ]
+  }
+ ]
+}

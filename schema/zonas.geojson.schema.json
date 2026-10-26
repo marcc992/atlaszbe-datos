@@ -1,0 +1,1268 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "FeatureCollection"
+    },
+    "license": {
+      "type": "string",
+      "const": "ODbL-1.0",
+      "description": "Licencia del dataset (contenidos bajo DbCL 1.0)."
+    },
+    "attribution": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Atribución del dataset y de cada fuente, con su licencia de origen."
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "Feature"
+          },
+          "id": {
+            "type": "string"
+          },
+          "properties": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^\\d{5}-[a-z0-9-]+$"
+              },
+              "fuente": {
+                "type": "string",
+                "enum": [
+                  "nap",
+                  "municipal"
+                ]
+              },
+              "fuenteId": {
+                "type": "string"
+              },
+              "fichero": {
+                "type": "string"
+              },
+              "municipioIne": {
+                "type": "string",
+                "pattern": "^\\d{5}$"
+              },
+              "otrosMunicipiosIne": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^\\d{5}$"
+                }
+              },
+              "nombre": {
+                "type": "string",
+                "minLength": 1
+              },
+              "estado": {
+                "type": "string",
+                "enum": [
+                  "activa",
+                  "inactiva",
+                  "programada",
+                  "suspendida",
+                  "sin_verificar"
+                ]
+              },
+              "estadoSancion": {
+                "type": "string",
+                "enum": [
+                  "sanciona",
+                  "aviso",
+                  "aprobada_sin_aplicar",
+                  "solo_episodios",
+                  "suspendida",
+                  "sin_restricciones",
+                  "sin_verificar"
+                ]
+              },
+              "fechas": {
+                "type": "object",
+                "properties": {
+                  "multasDesde": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "format": "date",
+                        "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "avisosHasta": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "format": "date",
+                        "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  },
+                  "proximoCambio": {
+                    "anyOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "fecha": {
+                            "type": "string",
+                            "format": "date",
+                            "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                          },
+                          "descripcion": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "fecha",
+                          "descripcion"
+                        ]
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "multasDesde",
+                  "avisosHasta",
+                  "proximoCambio"
+                ]
+              },
+              "confianza": {
+                "type": "string",
+                "enum": [
+                  "alta",
+                  "media",
+                  "baja"
+                ]
+              },
+              "atribucion": {
+                "type": "string",
+                "minLength": 1
+              },
+              "vigenteDesde": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "reglas": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "acceso": {
+                      "type": "string",
+                      "enum": [
+                        "prohibido",
+                        "solo_autorizados",
+                        "condicionado",
+                        "solo_aparcamiento"
+                      ]
+                    },
+                    "etiquetas": {
+                      "anyOf": [
+                        {
+                          "type": "array",
+                          "items": {
+                            "type": "string",
+                            "enum": [
+                              "0",
+                              "ECO",
+                              "C",
+                              "B",
+                              "A"
+                            ]
+                          }
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "interpretacion": {
+                      "type": "string",
+                      "enum": [
+                        "afectadas",
+                        "exentas",
+                        "incoherente",
+                        "sin_codificar",
+                        "corregida"
+                      ]
+                    },
+                    "etiquetasFuente": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "perfil": {
+                      "type": "string",
+                      "enum": [
+                        "todos",
+                        "no_domiciliados",
+                        "domiciliados",
+                        "residentes_zona"
+                      ]
+                    },
+                    "vehiculos": {
+                      "anyOf": [
+                        {
+                          "type": "string",
+                          "const": "todos"
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "tipos": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "string",
+                                "enum": [
+                                  "turismo",
+                                  "moto",
+                                  "ciclomotor",
+                                  "furgoneta",
+                                  "camion",
+                                  "autobus"
+                                ]
+                              }
+                            },
+                            "combustible": {
+                              "type": "string",
+                              "enum": [
+                                "diesel",
+                                "gasolina"
+                              ]
+                            },
+                            "mmaMinimaKg": {
+                              "type": "integer",
+                              "exclusiveMinimum": 0,
+                              "maximum": 9007199254740991
+                            },
+                            "nota": {
+                              "type": "string",
+                              "minLength": 1
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "condicion": {
+                      "type": "string",
+                      "enum": [
+                        "siempre",
+                        "episodio_contaminacion"
+                      ]
+                    },
+                    "sanciona": {
+                      "type": "boolean"
+                    },
+                    "desde": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "hasta": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "horario": {
+                      "anyOf": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "dias": {
+                              "type": "string",
+                              "enum": [
+                                "L-V",
+                                "L-S",
+                                "L-D"
+                              ]
+                            },
+                            "tramos": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "desde": {
+                                    "type": "string",
+                                    "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$|^24:00$"
+                                  },
+                                  "hasta": {
+                                    "type": "string",
+                                    "pattern": "^([01]\\d|2[0-3]):[0-5]\\d$|^24:00$"
+                                  }
+                                },
+                                "required": [
+                                  "desde",
+                                  "hasta"
+                                ]
+                              }
+                            },
+                            "festivos": {
+                              "type": "boolean"
+                            }
+                          },
+                          "required": [
+                            "dias",
+                            "tramos",
+                            "festivos"
+                          ]
+                        },
+                        {
+                          "type": "null"
+                        }
+                      ]
+                    },
+                    "nota": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "origen": {
+                      "type": "string",
+                      "enum": [
+                        "nap",
+                        "correccion",
+                        "editorial"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "acceso",
+                    "etiquetas",
+                    "interpretacion",
+                    "etiquetasFuente",
+                    "perfil",
+                    "vehiculos",
+                    "condicion",
+                    "sanciona",
+                    "desde",
+                    "hasta",
+                    "horario",
+                    "nota",
+                    "origen"
+                  ]
+                }
+              },
+              "geometriaPrecision": {
+                "type": "string",
+                "enum": [
+                  "oficial",
+                  "aproximada"
+                ]
+              },
+              "urlOficial": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "textoFuente": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "versionRegistro": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "publicacionFuente": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "avisos": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "codigo": {
+                      "type": "string",
+                      "enum": [
+                        "etiquetas_exentas_interpretadas",
+                        "etiquetas_incoherentes",
+                        "etiquetas_sin_codificar",
+                        "sin_vigencia",
+                        "sin_url",
+                        "hueco_por_contencion",
+                        "posible_duplicado",
+                        "condicion_desconocida",
+                        "horario_normalizado",
+                        "coordenadas_utm",
+                        "horario_dudoso",
+                        "sin_reglas_en_fuente",
+                        "geometria_autointersecada"
+                      ]
+                    },
+                    "detalle": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "codigo",
+                    "detalle"
+                  ]
+                }
+              },
+              "correcciones": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "motivo": {
+                      "type": "string"
+                    },
+                    "cambios": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "fuentes": {
+                      "minItems": 1,
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "url": {
+                            "type": "string",
+                            "format": "uri"
+                          },
+                          "titulo": {
+                            "type": "string",
+                            "minLength": 1
+                          },
+                          "fecha": {
+                            "type": "string",
+                            "format": "date",
+                            "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                          }
+                        },
+                        "required": [
+                          "url",
+                          "titulo"
+                        ]
+                      }
+                    },
+                    "verificadoEl": {
+                      "type": "string",
+                      "format": "date",
+                      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                    }
+                  },
+                  "required": [
+                    "motivo",
+                    "cambios",
+                    "fuentes",
+                    "verificadoEl"
+                  ]
+                }
+              },
+              "editorial": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "resumen": {
+                        "type": "string",
+                        "minLength": 20
+                      },
+                      "calendario": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "fecha": {
+                              "type": "string",
+                              "format": "date",
+                              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                            },
+                            "hito": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "fuentes": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "url": {
+                                    "type": "string",
+                                    "format": "uri"
+                                  },
+                                  "titulo": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "fecha": {
+                                    "type": "string",
+                                    "format": "date",
+                                    "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                                  }
+                                },
+                                "required": [
+                                  "url",
+                                  "titulo"
+                                ]
+                              }
+                            },
+                            "verificadoEl": {
+                              "type": "string",
+                              "format": "date",
+                              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                            }
+                          },
+                          "required": [
+                            "fecha",
+                            "hito",
+                            "fuentes",
+                            "verificadoEl"
+                          ]
+                        }
+                      },
+                      "multa": {
+                        "anyOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "importe": {
+                                "type": "number",
+                                "minimum": 0
+                              },
+                              "prontoPago": {
+                                "anyOf": [
+                                  {
+                                    "type": "number",
+                                    "minimum": 0
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "reincidencia": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "gravedad": {
+                                "anyOf": [
+                                  {
+                                    "type": "string",
+                                    "enum": [
+                                      "leve",
+                                      "grave",
+                                      "muy_grave"
+                                    ]
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "control": {
+                                "type": "string",
+                                "enum": [
+                                  "camaras",
+                                  "agentes",
+                                  "ambos",
+                                  "desconocido"
+                                ]
+                              },
+                              "fuentes": {
+                                "minItems": 1,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "url": {
+                                      "type": "string",
+                                      "format": "uri"
+                                    },
+                                    "titulo": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    },
+                                    "fecha": {
+                                      "type": "string",
+                                      "format": "date",
+                                      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                                    }
+                                  },
+                                  "required": [
+                                    "url",
+                                    "titulo"
+                                  ]
+                                }
+                              },
+                              "verificadoEl": {
+                                "type": "string",
+                                "format": "date",
+                                "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                              }
+                            },
+                            "required": [
+                              "importe",
+                              "prontoPago",
+                              "reincidencia",
+                              "gravedad",
+                              "control",
+                              "fuentes",
+                              "verificadoEl"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "excepciones": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "tipo": {
+                              "type": "string",
+                              "enum": [
+                                "residentes",
+                                "domiciliados",
+                                "pmr",
+                                "servicios_esenciales",
+                                "profesionales",
+                                "carga_descarga",
+                                "taxi_vtc",
+                                "rentas_bajas",
+                                "accesos_puntuales",
+                                "aparcamiento",
+                                "talleres",
+                                "hoteles",
+                                "otros"
+                              ]
+                            },
+                            "descripcion": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "requiereTramite": {
+                              "type": "boolean"
+                            },
+                            "tramiteUrl": {
+                              "anyOf": [
+                                {
+                                  "type": "string",
+                                  "format": "uri"
+                                },
+                                {
+                                  "type": "null"
+                                }
+                              ]
+                            },
+                            "coste": {
+                              "type": [
+                                "string",
+                                "null"
+                              ]
+                            },
+                            "fuentes": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "url": {
+                                    "type": "string",
+                                    "format": "uri"
+                                  },
+                                  "titulo": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "fecha": {
+                                    "type": "string",
+                                    "format": "date",
+                                    "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                                  }
+                                },
+                                "required": [
+                                  "url",
+                                  "titulo"
+                                ]
+                              }
+                            },
+                            "verificadoEl": {
+                              "type": "string",
+                              "format": "date",
+                              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                            }
+                          },
+                          "required": [
+                            "tipo",
+                            "descripcion",
+                            "requiereTramite",
+                            "tramiteUrl",
+                            "coste",
+                            "fuentes",
+                            "verificadoEl"
+                          ]
+                        }
+                      },
+                      "extranjeros": {
+                        "anyOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "registroObligatorio": {
+                                "type": [
+                                  "boolean",
+                                  "null"
+                                ]
+                              },
+                              "tramiteUrl": {
+                                "anyOf": [
+                                  {
+                                    "type": "string",
+                                    "format": "uri"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "coste": {
+                                "type": [
+                                  "string",
+                                  "null"
+                                ]
+                              },
+                              "nota": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "fuentes": {
+                                "minItems": 1,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "url": {
+                                      "type": "string",
+                                      "format": "uri"
+                                    },
+                                    "titulo": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    },
+                                    "fecha": {
+                                      "type": "string",
+                                      "format": "date",
+                                      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                                    }
+                                  },
+                                  "required": [
+                                    "url",
+                                    "titulo"
+                                  ]
+                                }
+                              },
+                              "verificadoEl": {
+                                "type": "string",
+                                "format": "date",
+                                "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                              }
+                            },
+                            "required": [
+                              "registroObligatorio",
+                              "tramiteUrl",
+                              "coste",
+                              "nota",
+                              "fuentes",
+                              "verificadoEl"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "viasExcluidas": {
+                        "type": "array",
+                        "items": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      },
+                      "episodios": {
+                        "anyOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "nota": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "avisoUrl": {
+                                "anyOf": [
+                                  {
+                                    "type": "string",
+                                    "format": "uri"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "fuentes": {
+                                "minItems": 1,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "url": {
+                                      "type": "string",
+                                      "format": "uri"
+                                    },
+                                    "titulo": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    },
+                                    "fecha": {
+                                      "type": "string",
+                                      "format": "date",
+                                      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                                    }
+                                  },
+                                  "required": [
+                                    "url",
+                                    "titulo"
+                                  ]
+                                }
+                              },
+                              "verificadoEl": {
+                                "type": "string",
+                                "format": "date",
+                                "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                              }
+                            },
+                            "required": [
+                              "nota",
+                              "avisoUrl",
+                              "fuentes",
+                              "verificadoEl"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "historicos": {
+                        "anyOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "regimen": {
+                                "type": "string",
+                                "enum": [
+                                  "exentos",
+                                  "exentos_con_tramite",
+                                  "no_exentos",
+                                  "no_consta"
+                                ]
+                              },
+                              "nota": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "tramiteUrl": {
+                                "anyOf": [
+                                  {
+                                    "type": "string",
+                                    "format": "uri"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "fuentes": {
+                                "minItems": 1,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "url": {
+                                      "type": "string",
+                                      "format": "uri"
+                                    },
+                                    "titulo": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    },
+                                    "fecha": {
+                                      "type": "string",
+                                      "format": "date",
+                                      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                                    }
+                                  },
+                                  "required": [
+                                    "url",
+                                    "titulo"
+                                  ]
+                                }
+                              },
+                              "verificadoEl": {
+                                "type": "string",
+                                "format": "date",
+                                "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                              }
+                            },
+                            "required": [
+                              "regimen",
+                              "nota",
+                              "tramiteUrl",
+                              "fuentes",
+                              "verificadoEl"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "ambito": {
+                        "anyOf": [
+                          {
+                            "type": "object",
+                            "properties": {
+                              "nombre": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "nota": {
+                                "type": "string",
+                                "minLength": 1
+                              },
+                              "url": {
+                                "anyOf": [
+                                  {
+                                    "type": "string",
+                                    "format": "uri"
+                                  },
+                                  {
+                                    "type": "null"
+                                  }
+                                ]
+                              },
+                              "zonas": {
+                                "minItems": 1,
+                                "type": "array",
+                                "items": {
+                                  "type": "string",
+                                  "pattern": "^\\d{5}-[a-z0-9-]+$"
+                                }
+                              },
+                              "fuentes": {
+                                "minItems": 1,
+                                "type": "array",
+                                "items": {
+                                  "type": "object",
+                                  "properties": {
+                                    "url": {
+                                      "type": "string",
+                                      "format": "uri"
+                                    },
+                                    "titulo": {
+                                      "type": "string",
+                                      "minLength": 1
+                                    },
+                                    "fecha": {
+                                      "type": "string",
+                                      "format": "date",
+                                      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                                    }
+                                  },
+                                  "required": [
+                                    "url",
+                                    "titulo"
+                                  ]
+                                }
+                              },
+                              "verificadoEl": {
+                                "type": "string",
+                                "format": "date",
+                                "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                              }
+                            },
+                            "required": [
+                              "nombre",
+                              "nota",
+                              "url",
+                              "zonas",
+                              "fuentes",
+                              "verificadoEl"
+                            ]
+                          },
+                          {
+                            "type": "null"
+                          }
+                        ]
+                      },
+                      "estadoJudicial": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "tribunal": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "fecha": {
+                              "type": "string",
+                              "format": "date",
+                              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                            },
+                            "firme": {
+                              "type": [
+                                "boolean",
+                                "null"
+                              ]
+                            },
+                            "efecto": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "fuentes": {
+                              "minItems": 1,
+                              "type": "array",
+                              "items": {
+                                "type": "object",
+                                "properties": {
+                                  "url": {
+                                    "type": "string",
+                                    "format": "uri"
+                                  },
+                                  "titulo": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  },
+                                  "fecha": {
+                                    "type": "string",
+                                    "format": "date",
+                                    "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                                  }
+                                },
+                                "required": [
+                                  "url",
+                                  "titulo"
+                                ]
+                              }
+                            },
+                            "verificadoEl": {
+                              "type": "string",
+                              "format": "date",
+                              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                            }
+                          },
+                          "required": [
+                            "tribunal",
+                            "fecha",
+                            "firme",
+                            "efecto",
+                            "fuentes",
+                            "verificadoEl"
+                          ]
+                        }
+                      },
+                      "faq": {
+                        "maxItems": 8,
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "pregunta": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "respuesta": {
+                              "type": "string",
+                              "minLength": 1
+                            }
+                          },
+                          "required": [
+                            "pregunta",
+                            "respuesta"
+                          ]
+                        }
+                      },
+                      "fuentes": {
+                        "minItems": 1,
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "url": {
+                              "type": "string",
+                              "format": "uri"
+                            },
+                            "titulo": {
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "fecha": {
+                              "type": "string",
+                              "format": "date",
+                              "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                            }
+                          },
+                          "required": [
+                            "url",
+                            "titulo"
+                          ]
+                        }
+                      },
+                      "verificadoEl": {
+                        "type": "string",
+                        "format": "date",
+                        "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+                      }
+                    },
+                    "required": [
+                      "resumen",
+                      "calendario",
+                      "multa",
+                      "excepciones",
+                      "extranjeros",
+                      "viasExcluidas",
+                      "episodios",
+                      "historicos",
+                      "ambito",
+                      "estadoJudicial",
+                      "faq",
+                      "fuentes",
+                      "verificadoEl"
+                    ]
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "fuente",
+              "fuenteId",
+              "fichero",
+              "municipioIne",
+              "otrosMunicipiosIne",
+              "nombre",
+              "estado",
+              "estadoSancion",
+              "fechas",
+              "confianza",
+              "atribucion",
+              "vigenteDesde",
+              "reglas",
+              "geometriaPrecision",
+              "urlOficial",
+              "textoFuente",
+              "versionRegistro",
+              "publicacionFuente",
+              "avisos",
+              "correcciones",
+              "editorial"
+            ]
+          },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "MultiPolygon"
+              },
+              "coordinates": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "minItems": 1,
+                  "type": "array",
+                  "items": {
+                    "minItems": 4,
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "prefixItems": [
+                        {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        },
+                        {
+                          "type": "number",
+                          "minimum": -90,
+                          "maximum": 90
+                        }
+                      ],
+                      "items": false,
+                      "minItems": 2,
+                      "maxItems": 2
+                    }
+                  }
+                }
+              }
+            },
+            "required": [
+              "type",
+              "coordinates"
+            ]
+          }
+        },
+        "required": [
+          "type",
+          "id",
+          "properties",
+          "geometry"
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "license",
+    "attribution",
+    "features"
+  ],
+  "$id": "https://datos.atlaszbe.es/v1/zonas.geojson.schema.json",
+  "title": "Atlas ZBE · zonas.geojson"
+}

@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "type": {
+      "type": "string",
+      "const": "FeatureCollection"
+    },
+    "license": {
+      "type": "string",
+      "const": "ODbL-1.0",
+      "description": "Licencia del dataset (contenidos bajo DbCL 1.0)."
+    },
+    "attribution": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Atribución del dataset y de cada fuente, con su licencia de origen."
+    },
+    "features": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string",
+            "const": "Feature"
+          },
+          "id": {
+            "type": "string"
+          },
+          "properties": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^osm-(way|relation)-\\d+$"
+              },
+              "nombre": {
+                "type": "string",
+                "minLength": 1
+              },
+              "osmUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "etiquetasOsm": {
+                "type": "object",
+                "propertyNames": {
+                  "type": "string"
+                },
+                "additionalProperties": {
+                  "type": "string"
+                }
+              },
+              "geometriaPrecision": {
+                "type": "string",
+                "const": "aproximada"
+              }
+            },
+            "required": [
+              "id",
+              "nombre",
+              "osmUrl",
+              "etiquetasOsm",
+              "geometriaPrecision"
+            ]
+          },
+          "geometry": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "const": "MultiPolygon"
+              },
+              "coordinates": {
+                "minItems": 1,
+                "type": "array",
+                "items": {
+                  "minItems": 1,
+                  "type": "array",
+                  "items": {
+                    "minItems": 4,
+                    "type": "array",
+                    "items": {
+                      "type": "array",
+                      "prefixItems": [
+                        {
+                          "type": "number",
+                          "minimum": -180,
+                          "maximum": 180
+                        },
+                        {
+                          "type": "number",
+                          "minimum": -90,
+                          "maximum": 90
+                        }
+                      ],
+                      "items": false,
+                      "minItems": 2,
+                      "maxItems": 2
+                    }
+                  }
+                }
+              }
+            },
+            "required": [
+              "type",
+              "coordinates"
+            ]
+          }
+        },
+        "required": [
+          "type",
+          "id",
+          "properties",
+          "geometry"
+        ]
+      }
+    }
+  },
+  "required": [
+    "type",
+    "license",
+    "attribution",
+    "features"
+  ],
+  "$id": "https://datos.atlaszbe.es/v1/osm-zonas.geojson.schema.json",
+  "title": "Atlas ZBE · osm-zonas.geojson"
+}

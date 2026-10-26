@@ -1,0 +1,80 @@
+{
+  "schema": "v1",
+  "dataVersion": "20261026T132120Z-96aa3f20",
+  "generatedAt": "2026-10-26T13:21:20.112Z",
+  "checkedAt": "2026-10-26T13:21:20.112Z",
+  "contentHash": "96aa3f203cc3e03070e7c40b76b14e837c4dbbc547d4a8930573e946ce71007a",
+  "pipelineVersion": "0.1.0",
+  "baseUrl": "https://datos.atlaszbe.es/v1/",
+  "counts": {
+    "zones": 64,
+    "municipalities": 155,
+    "osmZones": 16
+  },
+  "sources": [
+    {
+      "name": "nap-dgt-zbe",
+      "fetchedAt": "2026-10-26T13:21:40.747Z",
+      "fromCache": false,
+      "sha256": "4102dafa62a4dac28e47c8d209f32dcd3e25e3872de0fdb2270096003ab07a21",
+      "license": "CC BY 4.0"
+    },
+    {
+      "name": "zaragoza-wfs",
+      "fetchedAt": "2026-10-26T13:21:20.550Z",
+      "fromCache": false,
+      "sha256": "07e331bf1bbc8590fbf1c8786109082699fa8ba118e32996966551d5c8fa7fea",
+      "license": "Ley 37/2007 (reutilización con atribución)"
+    },
+    {
+      "name": "valencia-apr",
+      "fetchedAt": "2026-10-26T13:21:20.503Z",
+      "fromCache": false,
+      "sha256": "2791a90ed4643e064756d2bcda91a0ff9e6b47266f44b77b6ca0bd9e6696ba2e",
+      "license": "CC BY 4.0"
+    },
+    {
+      "name": "pamplona-zac",
+      "fetchedAt": "2026-10-26T13:21:20.392Z",
+      "fromCache": false,
+      "sha256": "3c77134c294479a8868ab9710b395a35b5072c99e9738049ad4a809399800391",
+      "license": "CC BY 3.0"
+    },
+    {
+      "name": "icgc-limites",
+      "fetchedAt": "2026-10-26T13:21:20.710Z",
+      "fromCache": false,
+      "sha256": "0148485593545badcd65dbff0126fb27a27e6c8ca5665f8b3e69c22f4ad2c452",
+      "license": "Ley 37/2007 (reutilización citando al ICGC)"
+    },
+    {
+      "name": "miteco-zbe",
+      "fetchedAt": "2026-10-26T13:21:20.649Z",
+      "fromCache": false,
+      "sha256": "d2da844eedca83d0e8c32fe033ccf42952cb455fbd8abbce5793ede06fa69690",
+      "license": "citando la fuente (MITECO)"
+    },
+    {
+      "name": "osm-overpass",
+      "fetchedAt": "2026-10-26T13:22:08.847Z",
+      "fromCache": false,
+      "sha256": "83f06312082e807c28c780192f2865777f8517c96f3955daee5357902bdac5dc",
+      "license": "ODbL 1.0"
+    }
+  ],
+  "attribution": [
+    "Atlas ZBE (https://atlaszbe.es), Open Database License (ODbL) 1.0",
+    "Contiene datos de la DGT, Punto de Acceso Nacional de Tráfico y Movilidad (nap.dgt.es), publicados bajo CC BY 4.0",
+    "Contiene datos del Ayuntamiento de Zaragoza (IDEZar), reutilizados según la Ley 37/2007",
+    "Contiene datos del Ajuntament de València (geoportal, datos abiertos), publicados bajo CC BY 4.0",
+    "Contiene datos del Ayuntamiento de Pamplona (GeoPamplona, datos abiertos), publicados bajo CC BY 3.0",
+    "Contiene límites municipales del Institut Cartogràfic i Geològic de Catalunya (ICGC), reutilizados según la Ley 37/2007",
+    "Estado de los municipios: inventario de Zonas de Bajas Emisiones del MITECO (miteco.gob.es)",
+    "osm-zonas.geojson: Datos © colaboradores de OpenStreetMap (https://www.openstreetmap.org/copyright), disponibles bajo la Open Database License (ODbL) 1.0"
+  ],
+  "license": {
+    "id": "ODbL-1.0",
+    "nombre": "Open Database License (ODbL) 1.0",
+    "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+  }
+}

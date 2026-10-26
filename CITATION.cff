@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Si usas estos datos, cítalos así. / If you use this dataset, please cite it as below."
+type: dataset
+title: "Atlas ZBE: Zonas de Bajas Emisiones de España"
+abstract: >-
+  Dataset abierto con las Zonas de Bajas Emisiones (ZBE) de España: perímetros,
+  reglas (etiquetas DGT, horarios, a quién afectan, fechas), estado para quien
+  conduce y una capa editorial con multas, excepciones, vehículos extranjeros e
+  históricos, con fuente oficial y fecha de verificación en cada dato.
+authors:
+  - name: "Atlas ZBE"
+    website: "https://atlaszbe.es"
+license: ODbL-1.0
+url: "https://datos.atlaszbe.es/v1/"
+repository: "https://github.com/marcc992/atlaszbe-datos"
+keywords:
+  - zonas de bajas emisiones
+  - low emission zones
+  - ZBE
+  - España
+  - Spain
+  - movilidad
+  - calidad del aire
+  - open data

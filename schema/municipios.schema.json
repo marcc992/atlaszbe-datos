@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "license": {
+      "type": "string",
+      "const": "ODbL-1.0",
+      "description": "Licencia del dataset (contenidos bajo DbCL 1.0)."
+    },
+    "attribution": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Atribución del dataset y de cada fuente, con su licencia de origen."
+    },
+    "municipios": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "ine": {
+            "type": "string",
+            "pattern": "^\\d{5}$"
+          },
+          "nombre": {
+            "type": "string",
+            "minLength": 1
+          },
+          "provincia": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ccaa": {
+            "type": "string",
+            "minLength": 1
+          },
+          "estadoInventario": {
+            "type": "string",
+            "enum": [
+              "vigente",
+              "en_tramite",
+              "pendiente",
+              "sin_dato"
+            ]
+          },
+          "zonas": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "inventarioActualizado": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date",
+                "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "ine",
+          "nombre",
+          "provincia",
+          "ccaa",
+          "estadoInventario",
+          "zonas",
+          "inventarioActualizado"
+        ]
+      }
+    }
+  },
+  "required": [
+    "license",
+    "attribution",
+    "municipios"
+  ],
+  "$id": "https://datos.atlaszbe.es/v1/municipios.schema.json",
+  "title": "Atlas ZBE · municipios.json"
+}
