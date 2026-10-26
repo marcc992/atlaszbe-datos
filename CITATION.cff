@@ -11,6 +11,7 @@ authors:
   - name: "Atlas ZBE"
     website: "https://atlaszbe.es"
 license: ODbL-1.0
+doi: 10.5281/zenodo.23671028
 url: "https://datos.atlaszbe.es/v1/"
 repository: "https://github.com/marcc992/atlaszbe-datos"
 keywords:

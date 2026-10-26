@@ -1,5 +1,7 @@
 # Atlas ZBE · datos
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23671028.svg)](https://doi.org/10.5281/zenodo.23671028)
+
 Dataset abierto de las **Zonas de Bajas Emisiones (ZBE) de España**: dónde están,
 qué restringen hoy, a quién, desde cuándo, cuánto es la multa, qué excepciones
 hay y qué pasa con los vehículos extranjeros e históricos. Cada dato lleva su
@@ -90,7 +92,9 @@ comerciales, siempre que:
 - publiques bajo la misma licencia las bases de datos derivadas que hagas
   públicas.
 
-Para citarlo, usa `CITATION.cff` (GitHub muestra «Cite this repository»).
+Para citarlo, usa el DOI [10.5281/zenodo.23671028](https://doi.org/10.5281/zenodo.23671028) (apunta siempre a la
+última versión archivada en Zenodo; cada versión tiene además el suyo) o
+`CITATION.cff` (GitHub muestra «Cite this repository»).
 
 ## Errores y sugerencias
 
