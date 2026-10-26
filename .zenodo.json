@@ -1,0 +1,14 @@
+{
+  "title": "Atlas ZBE: Zonas de Bajas Emisiones de España",
+  "upload_type": "dataset",
+  "description": "<p>Dataset abierto de las Zonas de Bajas Emisiones (ZBE) de España: perímetros, reglas (etiquetas ambientales de la DGT, horarios, a quién afectan, fechas), estado para quien conduce y una capa editorial con multas, excepciones, vehículos extranjeros e históricos. Cada dato lleva su fuente oficial y su fecha de verificación. Se actualiza cada día en <a href=\"https://datos.atlaszbe.es/v1/\">datos.atlaszbe.es/v1</a>; cada versión de Zenodo es una instantánea.</p><p>Open dataset of Spain's Low Emission Zones: perimeters, rules, current enforcement status, fines, exemptions and rules for foreign and historic vehicles, with the official source and verification date of every item.</p>",
+  "creators": [{ "name": "Atlas ZBE" }],
+  "license": "odbl-1.0",
+  "access_right": "open",
+  "language": "spa",
+  "keywords": ["zonas de bajas emisiones", "low emission zones", "ZBE", "España", "Spain", "movilidad", "calidad del aire", "open data", "GeoJSON"],
+  "related_identifiers": [
+    { "identifier": "https://datos.atlaszbe.es/v1/", "relation": "isVersionOf", "resource_type": "dataset" },
+    { "identifier": "https://atlaszbe.es", "relation": "isDocumentedBy", "resource_type": "other" }
+  ]
+}
