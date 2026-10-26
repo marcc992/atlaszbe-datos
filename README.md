@@ -67,15 +67,15 @@ CC BY 4.0), el inventario del MITECO y servicios municipales de datos abiertos.
 Todo se contrasta con las ordenanzas y las webs municipales y se corrige donde
 hace falta, siempre con fuente oficial. La prensa solo se usa para fechas y
 estado judicial, y se marca como tal. La lista completa de fuentes y licencias
-está en `LICENSE` y en `data/meta.json`.
+está en `ATRIBUCION.md` y en `data/meta.json`.
 
 ## Licencia y cita
 
-**Open Database License (ODbL) 1.0**; los contenidos, bajo la Database Contents
-License (DbCL) 1.0. Puedes usar, copiar y modificar los datos, también con fines
+**Open Database License (ODbL) 1.0** (`LICENSE`); los contenidos, bajo la
+Database Contents License (DbCL) 1.0 (`LICENSE-DbCL`). Puedes usar, copiar y modificar los datos, también con fines
 comerciales, siempre que:
 
-- cites a «Atlas ZBE» y a las fuentes (`LICENSE`);
+- cites a «Atlas ZBE» y a las fuentes (`ATRIBUCION.md`);
 - publiques bajo la misma licencia las bases de datos derivadas que hagas
   públicas.
 
@@ -96,6 +96,6 @@ foreign and historic vehicles, and the official source and verification date
 of every item. Updated daily at <https://datos.atlaszbe.es/v1/>; this
 repository mirrors it, so the git history is the dataset history. Licensed
 under the **ODbL 1.0** (contents under DbCL 1.0): credit «Atlas ZBE» and the
-sources listed in `LICENSE`, and share derived databases alike. Field names and
+sources listed in `ATRIBUCION.md`, and share derived databases alike. Field names and
 texts are in Spanish; JSON Schemas are in `schema/`. Report errors through
 GitHub issues.
