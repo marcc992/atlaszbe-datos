@@ -2,6 +2,175 @@
  "dias": 90,
  "cambios": [
   {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "48020-zbe-bilbao",
+   "nombre": "ZBE Bilbao",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 16/09/2024, hasta 14/06/2025, L-V 07:00–20:00 no festivos · prohibidas B, A, desde 15/06/2025, L-V 07:00–20:00 no festivos → prohibidas A, desde 16/09/2024, hasta 14/06/2025, L-V 07:00–20:00 no festivos · B solo para aparcar, desde 15/06/2025, hasta 31/12/2029, L-V 07:00–20:00 no festivos · prohibidas B, desde 01/01/2030, L-V 07:00–20:00 no festivos · prohibidas A, desde 15/06/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28058-fuenlabrada",
+   "nombre": "Fuenlabrada",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 15/02/2025, L-D 00:00–24:00 → A solo para aparcar, desde 15/02/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "18087-granada",
+   "nombre": "Granada",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 01/10/2025, L-D 00:00–24:00 → A solo para aparcar, no domiciliados, desde 01/10/2025, hasta 31/12/2027, L-D 00:00–24:00 · prohibidas A, no domiciliados, desde 01/01/2028, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28079-madrid-zbedpe-distrito-centro",
+   "nombre": "Madrid (ZBEDPE Distrito Centro)",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas C, B, A, desde 22/09/2021, L-D 00:00–24:00 → C, B solo para aparcar, desde 22/09/2021, L-D 00:00–24:00 · prohibidas A, desde 22/09/2021, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "33044-ayuntamiento-de-oviedo-anillo-interior",
+   "nombre": "Ayuntamiento de Oviedo - Anillo Interior",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 31/12/2025, L-D 00:00–24:00 → A solo para aparcar, desde 31/12/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "07040-ayuntamiento-de-palma",
+   "nombre": "Ayuntamiento de Palma",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2027, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00 → A solo para aparcar, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, desde 01/01/2027, L-D 00:00–24:00 · prohibidas C, desde 01/01/2030, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "41091-zbe-sevilla-cartuja",
+   "nombre": "ZBE SEVILLA CARTUJA",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, turismos, furgonetas (furgonetas ligeras; motos, autobuses y camiones de hasta 12 t exentos; los de más de 12 t necesitan autorización expresa), desde 01/01/2023, L-V 07:00–19:00 no festivos → A solo para aparcar, turismos, furgonetas (furgonetas ligeras; motos, autobuses y camiones de hasta 12 t exentos; los de más de 12 t necesitan autorización expresa), desde 01/01/2023, L-V 07:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "43148-zbe-tarragona",
+   "nombre": "ZBE Tarragona",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 31/12/2025, hasta 31/12/2026, L-V 07:00–19:00 no festivos · prohibidas A, desde 01/01/2027, L-V 07:00–19:00 no festivos → A solo para aparcar, no domiciliados, desde 31/12/2025, hasta 31/12/2026, L-V 07:00–19:00 no festivos · A solo para aparcar, desde 01/01/2027, L-V 07:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08279-zbe-terrassa",
+   "nombre": "ZBE Terrassa",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 01/12/2025, L-V 07:00–20:00 no festivos → A solo para aparcar, desde 01/12/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "47186-valladolid",
+   "nombre": "Valladolid",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 01/07/2025, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2028, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2030, L-D 00:00–24:00 · prohibidas C, B, A, solo en episodios de contaminación, desde 28/02/2025, L-D 09:00–21:00 → A solo para aparcar, desde 01/07/2025, L-D 00:00–24:00 · B solo para aparcar, desde 01/01/2028, L-D 00:00–24:00 · C solo para aparcar, desde 01/01/2030, L-D 00:00–24:00 · prohibidas C, B, A, solo en episodios de contaminación, desde 28/02/2025, L-D 09:00–21:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "31201-zbe-casco-antiguo",
+   "nombre": "ZBE Casco Antiguo",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 29/12/2025, L-D 00:00–24:00 → A solo para aparcar, desde 29/12/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "09059-zbe-burgos",
+   "nombre": "ZBE Burgos",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, aviso sin multa, desde 06/02/2026, hasta 05/08/2027, L-D 00:00–24:00 · prohibidas A, desde 06/08/2027, L-D 00:00–24:00 → A solo para aparcar, aviso sin multa, desde 06/02/2026, hasta 05/08/2027, L-D 00:00–24:00 · A solo para aparcar, desde 06/08/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-27",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "32054-zbe-ourense",
+   "nombre": "ZBE Ourense Centro",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, aviso sin multa, desde 26/12/2025, hasta 30/06/2026, L-D 00:00–24:00 · prohibidas A, desde 01/07/2026, L-D 00:00–24:00 → A solo para aparcar, aviso sin multa, desde 26/12/2025, hasta 30/06/2026, L-D 00:00–24:00 · A solo para aparcar, desde 01/07/2026, L-D 00:00–24:00"
+   ]
+  },
+  {
    "fecha": "2026-10-26",
    "ambito": "zona",
    "tipo": "cambio",
