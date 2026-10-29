@@ -1,71 +1,78 @@
 {
   "schema": "v1",
-  "dataVersion": "20261028T051532Z-2ab5a047",
-  "generatedAt": "2026-10-28T05:15:32.148Z",
-  "checkedAt": "2026-10-28T05:15:32.148Z",
-  "contentHash": "2ab5a047d551465f2144f1b6a95aa12947d8758b0215c8441f8b79c4d7811c47",
+  "dataVersion": "20261029T120017Z-857b0ca5",
+  "generatedAt": "2026-10-29T12:00:17.736Z",
+  "checkedAt": "2026-10-29T12:00:17.736Z",
+  "contentHash": "857b0ca59add9ba9432985cd3147b86e091444196ced8af9e569ac7b471e955b",
   "pipelineVersion": "0.1.0",
   "baseUrl": "https://datos.atlaszbe.es/v1/",
   "counts": {
-    "zones": 75,
+    "zones": 105,
     "municipalities": 155,
-    "osmZones": 5
+    "osmZones": 2
   },
   "sources": [
     {
       "name": "nap-dgt-zbe",
-      "fetchedAt": "2026-10-28T05:15:51.534Z",
+      "fetchedAt": "2026-10-29T12:00:37.617Z",
       "fromCache": false,
       "sha256": "4102dafa62a4dac28e47c8d209f32dcd3e25e3872de0fdb2270096003ab07a21",
       "license": "CC BY 4.0"
     },
     {
       "name": "zaragoza-wfs",
-      "fetchedAt": "2026-10-28T05:15:32.643Z",
+      "fetchedAt": "2026-10-29T12:00:18.293Z",
       "fromCache": false,
-      "sha256": "b7de141590fcefd8da2b46ac71761a851a11003f1be195d89d3b9dbcf8043770",
+      "sha256": "f6e2fc36289c17539c45d30c9411d963f975cc86526016b4cc9763e510967bdd",
       "license": "Ley 37/2007 (reutilización con atribución)"
     },
     {
       "name": "valencia-apr",
-      "fetchedAt": "2026-10-28T05:15:32.622Z",
+      "fetchedAt": "2026-10-29T12:00:18.237Z",
       "fromCache": false,
       "sha256": "2791a90ed4643e064756d2bcda91a0ff9e6b47266f44b77b6ca0bd9e6696ba2e",
       "license": "CC BY 4.0"
     },
     {
       "name": "pamplona-zac",
-      "fetchedAt": "2026-10-28T05:15:32.632Z",
+      "fetchedAt": "2026-10-29T12:00:18.131Z",
       "fromCache": false,
-      "sha256": "2eda5d65caf6feff4e4ec490c9a16aed49ed25b65d6782c35e824caeb765685c",
+      "sha256": "ad74fa325eb54c367272814c057fe115e7a2e6aa26b24351e483d1098195048a",
       "license": "CC BY 3.0"
     },
     {
       "name": "getafe-zbe",
-      "fetchedAt": "2026-10-28T05:15:32.818Z",
+      "fetchedAt": "2026-10-29T12:00:18.422Z",
       "fromCache": false,
       "sha256": "b955fe34a1c7666ad34c95dd4b3cc439cfd5155f32e9e005b3936ea97262694b",
       "license": "Ley 37/2007 (reutilización con atribución)"
     },
     {
       "name": "icgc-limites",
-      "fetchedAt": "2026-10-28T05:15:33.034Z",
+      "fetchedAt": "2026-10-29T12:00:18.530Z",
       "fromCache": false,
       "sha256": "0148485593545badcd65dbff0126fb27a27e6c8ca5665f8b3e69c22f4ad2c452",
       "license": "Ley 37/2007 (reutilización citando al ICGC)"
     },
     {
       "name": "miteco-zbe",
-      "fetchedAt": "2026-10-28T05:15:32.702Z",
+      "fetchedAt": "2026-10-29T12:00:18.478Z",
       "fromCache": false,
       "sha256": "d2da844eedca83d0e8c32fe033ccf42952cb455fbd8abbce5793ede06fa69690",
       "license": "citando la fuente (MITECO)"
     },
     {
-      "name": "osm-overpass",
-      "fetchedAt": "2026-10-28T05:16:14.470Z",
+      "name": "miteco-perimetros",
+      "fetchedAt": "2026-10-29T12:00:18.389Z",
       "fromCache": false,
-      "sha256": "d90d55348aa2a84d8da1bd6aeed2086b8ffd96db12968f2e8880a6bb4bac8531",
+      "sha256": "c3f46d02ea89535bee9de94d7dfd5b81813026c47082bc5b0a799f2e12d69b8f",
+      "license": "Ley 37/2007 (MITECO)"
+    },
+    {
+      "name": "osm-overpass",
+      "fetchedAt": "2026-10-29T12:00:51.216Z",
+      "fromCache": false,
+      "sha256": "095a134e5d7618524c7aa6e67b581999f8905227773472ee189212b798901a05",
       "license": "ODbL 1.0"
     }
   ],
@@ -78,7 +85,8 @@
     "Contiene datos del Ayuntamiento de Getafe (perímetro de la ZBE), reutilizados según la Ley 37/2007",
     "Contiene perímetros aproximados de OpenStreetMap (© colaboradores de OpenStreetMap, ODbL 1.0) en zonas confirmadas sin perímetro oficial abierto",
     "Contiene límites municipales del Institut Cartogràfic i Geològic de Catalunya (ICGC), reutilizados según la Ley 37/2007",
-    "Estado de los municipios: inventario de Zonas de Bajas Emisiones del MITECO (miteco.gob.es)",
+    "Estado de los municipios y perímetros de las ZBE que no publica ninguna otra fuente: inventario de Zonas de Bajas Emisiones del MITECO (miteco.gob.es), reutilizado según la Ley 37/2007",
+    "Contiene perímetros aproximados dibujados por Atlas ZBE a partir de las ordenanzas municipales",
     "osm-zonas.geojson: Datos © colaboradores de OpenStreetMap (https://www.openstreetmap.org/copyright), disponibles bajo la Open Database License (ODbL) 1.0"
   ],
   "license": {

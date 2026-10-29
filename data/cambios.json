@@ -2,6 +2,713 @@
  "dias": 90,
  "cambios": [
   {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "11020-zbe-jerez-de-la-frontera",
+   "nombre": "ZBE Jerez Zona 1 (centro, solo autorizados)",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, aviso sin multa, desde 04/01/2026, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "11020-zbe-jerez-de-la-frontera-zona-2",
+   "nombre": "ZBE Jerez Zona 2 (intramuros, solo en episodios)",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, solo en episodios de contaminación, desde 04/01/2026"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28022-zbe-boadilla-del-monte",
+   "nombre": "ZBE Boadilla del Monte",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, desde 20/03/2025, L-D 00:00–24:00 · prohibidas B, A, no domiciliados, desde 01/01/2030, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28080-zbe-majadahonda",
+   "nombre": "ZBE Majadahonda",
+   "campos": [],
+   "detalle": [
+    "sin_verificar; prohibidas A, no domiciliados, aviso sin multa, desde 01/01/2026, hasta 31/12/2027, L-D 00:00–24:00 · prohibidas B, A, no domiciliados, desde 01/01/2028, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28123-zbe-rivas-vaciamadrid",
+   "nombre": "ZBE Rivas-Vaciamadrid",
+   "campos": [],
+   "detalle": [
+    "sin_verificar; solo autorizados, L-V 08:30–09:15, 13:30–14:15 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28903-zbe-tres-cantos",
+   "nombre": "ZBE Tres Cantos",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, turismos, motos, ciclomotores, autobuses, desde 23/12/2025, L-D 00:00–24:00 · prohibidas A, no domiciliados, furgonetas, camiones, desde 23/12/2025, L-V 00:00–08:00, 16:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "04013-zbe-almeria",
+   "nombre": "ZBE Almería",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, desde 01/01/2025, L-V 08:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "10037-zbe-caceres",
+   "nombre": "ZBE Cáceres",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, desde 30/12/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "11012-zbe-cadiz",
+   "nombre": "ZBE Cádiz",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas B, A, no domiciliados, aviso sin multa, desde 27/05/2026, hasta 26/11/2026, L-D 00:00–24:00 · prohibidas B, A, no domiciliados, desde 27/11/2026, hasta 26/05/2027, L-D 00:00–24:00 · prohibidas C, B, A, no domiciliados, desde 27/05/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "11015-zbe-chiclana-de-la-frontera",
+   "nombre": "ZBE Chiclana de la Frontera",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, aviso sin multa, desde 19/12/2025, hasta 18/12/2026, L-S 00:00–08:00, 15:00–24:00 · prohibidas A, autobuses, camiones, furgonetas (Categorías M (transporte público) y N (carga y descarga)), aviso sin multa, desde 19/12/2025, hasta 18/12/2026, L-S 08:00–15:00 · prohibidas A, desde 19/12/2026, L-S 00:00–08:00, 15:00–24:00 · prohibidas A, autobuses, camiones, furgonetas (Categorías M (transporte público) y N (carga y descarga)), desde 19/12/2026, L-S 08:00–15:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "11022-zbe-la-linea-de-la-concepcion-parque-princesa-sofia",
+   "nombre": "ZBE II Parque Princesa Sofía (La Línea de la Concepción)",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, desde 31/01/2023, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "11031-zbe-san-fernando",
+   "nombre": "ZBE San Fernando",
+   "campos": [],
+   "detalle": [
+    "programada; prohibidas B, A, aviso sin multa, L-D 00:00–07:00, 20:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "23055-zbe-linares",
+   "nombre": "ZBE Linares",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, aviso sin multa, desde 12/10/2024, L-D 08:00–21:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "29051-zbe-estepona",
+   "nombre": "ZBE Estepona",
+   "campos": [],
+   "detalle": [
+    "sin_verificar; prohibidas A, no domiciliados, aviso sin multa, L-D 08:00–21:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "29054-zbe-fuengirola",
+   "nombre": "ZBE Fuengirola",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, desde 01/01/2026, L-D 09:00–21:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "41004-zbe-alcala-de-guadaira",
+   "nombre": "ZBE Alcalá de Guadaíra",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, desde 19/12/2024, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "22125-zbe-huesca",
+   "nombre": "ZBE Huesca",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, desde 07/01/2026, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28006-zbe-alcobendas",
+   "nombre": "ZBE Alcobendas",
+   "campos": [],
+   "detalle": [
+    "programada; prohibidas A, no domiciliados, desde 01/01/2028, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "33066-zbe-siero",
+   "nombre": "ZBE Siero",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, desde 01/01/2026, L-V 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "40194-zbe-segovia",
+   "nombre": "ZBE Segovia",
+   "campos": [],
+   "detalle": [
+    "suspendida; sin restricciones"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "06015-zbe-badajoz",
+   "nombre": "ZBE Badajoz",
+   "campos": [],
+   "detalle": [
+    "suspendida; sin restricciones"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "13034-zbe-ciudad-real",
+   "nombre": "ZBE Ciudad Real",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, solo en episodios de contaminación, desde 31/12/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "16078-zbe-cuenca",
+   "nombre": "ZBE Cuenca",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, aviso sin multa, desde 01/01/2026, hasta 31/12/2027, L-D 00:00–24:00 · prohibidas A, desde 01/01/2028, L-D 00:00–24:00 · prohibidas B, desde 01/01/2034, L-D 00:00–24:00 · prohibidas C, desde 01/01/2039, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "19130-zbe-guadalajara",
+   "nombre": "ZBE Guadalajara",
+   "campos": [],
+   "detalle": [
+    "suspendida; sin restricciones"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08113-zbe-manresa",
+   "nombre": "ZBE Manresa",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, solo en episodios de contaminación, desde 17/01/2026, hasta 31/12/2027, L-V 07:00–20:00 no festivos · prohibidas A, desde 01/01/2028, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08124-zbe-mollet-del-valles",
+   "nombre": "ZBE Mollet del Vallès",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, aviso sin multa, desde 01/01/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08245-zbe-santa-coloma-de-gramenet",
+   "nombre": "ZBE Santa Coloma de Gramenet",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, desde 17/02/2026, L-V 07:00–20:00 no festivos · prohibidas A, domiciliados, aviso sin multa, desde 17/02/2026, hasta 31/12/2027, L-V 07:00–20:00 no festivos · prohibidas B, A, desde 01/01/2028, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "03065-zbe-elx-elche",
+   "nombre": "ZBE Elx/Elche",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas ¿?, solo en episodios de contaminación, desde 31/12/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "08015-zbe-badalona",
+   "nombre": "ZBE Badalona",
+   "campos": [],
+   "detalle": [
+    "suspendida; prohibidas A, desde 01/07/2024, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "14021-zbe-cordoba",
+   "nombre": "ZBE Córdoba",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas C, B, A, desde 18/02/2023, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "03065",
+   "nombre": "Elx/Elche",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +03065-zbe-elx-elche"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "04013",
+   "nombre": "Almería",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +04013-zbe-almeria"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "06015",
+   "nombre": "Badajoz",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +06015-zbe-badajoz"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08015",
+   "nombre": "Badalona",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08015-zbe-badalona"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08113",
+   "nombre": "Manresa",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08113-zbe-manresa"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08124",
+   "nombre": "Mollet del Vallès",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08124-zbe-mollet-del-valles"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "08245",
+   "nombre": "Santa Coloma de Gramenet",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +08245-zbe-santa-coloma-de-gramenet"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "10037",
+   "nombre": "Cáceres",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +10037-zbe-caceres"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "11012",
+   "nombre": "Cádiz",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +11012-zbe-cadiz"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "11015",
+   "nombre": "Chiclana de la Frontera",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +11015-zbe-chiclana-de-la-frontera"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "11020",
+   "nombre": "Jerez de la Frontera",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +11020-zbe-jerez-de-la-frontera, +11020-zbe-jerez-de-la-frontera-zona-2"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "11022",
+   "nombre": "La Línea de la Concepción",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +11022-zbe-la-linea-de-la-concepcion-parque-princesa-sofia"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "11031",
+   "nombre": "San Fernando",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +11031-zbe-san-fernando"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "13034",
+   "nombre": "Ciudad Real",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +13034-zbe-ciudad-real"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "14021",
+   "nombre": "Córdoba",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +14021-zbe-cordoba"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "16078",
+   "nombre": "Cuenca",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +16078-zbe-cuenca"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "19130",
+   "nombre": "Guadalajara",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +19130-zbe-guadalajara"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "22125",
+   "nombre": "Huesca",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +22125-zbe-huesca"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "23055",
+   "nombre": "Linares",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +23055-zbe-linares"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28006",
+   "nombre": "Alcobendas",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28006-zbe-alcobendas"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28022",
+   "nombre": "Boadilla del Monte",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28022-zbe-boadilla-del-monte"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28080",
+   "nombre": "Majadahonda",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28080-zbe-majadahonda"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28123",
+   "nombre": "Rivas-Vaciamadrid",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28123-zbe-rivas-vaciamadrid"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28903",
+   "nombre": "Tres Cantos",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28903-zbe-tres-cantos"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "29051",
+   "nombre": "Estepona",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +29051-zbe-estepona"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "29054",
+   "nombre": "Fuengirola",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +29054-zbe-fuengirola"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "33066",
+   "nombre": "Siero",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +33066-zbe-siero"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "40194",
+   "nombre": "Segovia",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +40194-zbe-segovia"
+   ]
+  },
+  {
+   "fecha": "2026-10-29",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "41004",
+   "nombre": "Alcalá de Guadaíra",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +41004-zbe-alcala-de-guadaira"
+   ]
+  },
+  {
    "fecha": "2026-10-28",
    "ambito": "zona",
    "tipo": "cambio",
