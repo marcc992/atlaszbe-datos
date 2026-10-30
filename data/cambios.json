@@ -11,6 +11,19 @@
     "geometria"
    ],
    "detalle": [
+    "perímetro: 1848 → 1009 vértices"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "14021-zbe-cordoba",
+   "nombre": "ZBE Córdoba (calles A.CI.RE. del casco histórico)",
+   "campos": [
+    "geometria"
+   ],
+   "detalle": [
     "perímetro: 2573 → 1848 vértices"
    ]
   },
