@@ -1,6 +1,6 @@
 ﻿ine,nombre,provincia,ccaa,estado_inventario,n_zonas,zonas,inventario_actualizado
 01059,Vitoria-Gasteiz,Araba/Álava,País Vasco,vigente,1,01059-ayuntamiento-de-vitoria-gasteiz,2026-10-02
-02003,Albacete,Albacete,Castilla-La Mancha,en_tramite,0,,2026-10-02
+02003,Albacete,Albacete,Castilla-La Mancha,en_tramite,1,02003-zbe-albacete,2026-10-02
 03009,Alcoi/Alcoy,Alicante/Alacant,Comunitat Valenciana,en_tramite,0,,2026-10-02
 03014,Alacant/Alicante,Alicante/Alacant,Comunitat Valenciana,vigente,2,03014-anillo-1-casco-historico-zbe-alicante 03014-zbe-alicante,2026-10-02
 03031,Benidorm,Alicante/Alacant,Comunitat Valenciana,vigente,1,03031-zbe-benidorm,2026-10-02
@@ -8,13 +8,13 @@
 03066,Elda,Alicante/Alacant,Comunitat Valenciana,en_tramite,0,,2026-10-02
 03099,Orihuela,Alicante/Alacant,Comunitat Valenciana,en_tramite,0,,2026-10-02
 03122,Sant Vicent del Raspeig/San Vicente del Raspeig,Alicante/Alacant,Comunitat Valenciana,en_tramite,0,,2026-10-02
-03133,Torrevieja,Alicante/Alacant,Comunitat Valenciana,en_tramite,0,,2026-10-02
+03133,Torrevieja,Alicante/Alacant,Comunitat Valenciana,en_tramite,1,03133-zbe-torrevieja,2026-10-02
 04013,Almería,Almería,Andalucía,vigente,1,04013-zbe-almeria,2026-10-02
 04079,Roquetas de Mar,Almería,Andalucía,en_tramite,0,,2026-10-02
 04902,El Ejido,Almería,Andalucía,en_tramite,0,,2026-10-02
 05019,Ávila,Ávila,Castilla y León,vigente,1,05019-avila-zbe,2026-10-02
 06015,Badajoz,Badajoz,Extremadura,vigente,1,06015-zbe-badajoz,2026-10-02
-06083,Mérida,Badajoz,Extremadura,en_tramite,0,,2026-10-02
+06083,Mérida,Badajoz,Extremadura,en_tramite,1,06083-zbe-merida,2026-10-02
 07011,Calvià,Illes Balears,Illes Balears,en_tramite,0,,2026-10-02
 07026,Eivissa,Illes Balears,Illes Balears,en_tramite,0,,2026-10-02
 07040,Palma,Illes Balears,Illes Balears,vigente,1,07040-ayuntamiento-de-palma,2026-10-02
@@ -48,13 +48,13 @@
 11012,Cádiz,Cádiz,Andalucía,vigente,1,11012-zbe-cadiz,2026-10-02
 11015,Chiclana de la Frontera,Cádiz,Andalucía,vigente,1,11015-zbe-chiclana-de-la-frontera,2026-10-02
 11020,Jerez de la Frontera,Cádiz,Andalucía,vigente,2,11020-zbe-jerez-de-la-frontera 11020-zbe-jerez-de-la-frontera-zona-2,2026-10-02
-11022,La Línea de la Concepción,Cádiz,Andalucía,vigente,1,11022-zbe-la-linea-de-la-concepcion-parque-princesa-sofia,2026-10-02
+11022,La Línea de la Concepción,Cádiz,Andalucía,vigente,2,11022-zbe-la-linea-de-la-concepcion 11022-zbe-la-linea-de-la-concepcion-parque-princesa-sofia,2026-10-02
 11027,El Puerto de Santa María,Cádiz,Andalucía,pendiente,0,,2026-10-02
 11031,San Fernando,Cádiz,Andalucía,vigente,1,11031-zbe-san-fernando,2026-10-02
 11032,Sanlúcar de Barrameda,Cádiz,Andalucía,en_tramite,0,,2026-10-02
 12040,Castelló de la Plana,Castellón/Castelló,Comunitat Valenciana,vigente,1,12040-castellon-zbe,2026-10-02
 12135,Vila-real,Castellón/Castelló,Comunitat Valenciana,en_tramite,0,,2026-10-02
-13034,Ciudad Real,Ciudad Real,Castilla-La Mancha,vigente,1,13034-zbe-ciudad-real,2026-10-02
+13034,Ciudad Real,Ciudad Real,Castilla-La Mancha,vigente,2,13034-zbe-ciudad-real 13034-zbe-ciudad-real-zcrs,2026-10-02
 14021,Córdoba,Córdoba,Andalucía,vigente,1,14021-zbe-cordoba,2026-10-02
 15030,A Coruña,A Coruña,Galicia,vigente,2,15030-a-coruna-ciudad-vieja 15030-a-coruna-marina,2026-10-02
 15036,Ferrol,A Coruña,Galicia,en_tramite,0,,2026-10-02
@@ -74,7 +74,7 @@
 24115,Ponferrada,León,Castilla y León,vigente,1,24115-zbe-ponferrada,2026-10-02
 25120,Lleida,Lleida,Cataluña,vigente,1,25120-zbe-lleida,2026-10-02
 26089,Logroño,La Rioja,La Rioja,en_tramite,0,,2026-10-02
-27028,Lugo,Lugo,Galicia,en_tramite,0,,2026-10-02
+27028,Lugo,Lugo,Galicia,en_tramite,1,27028-zbe-lugo,2026-10-02
 28005,Alcalá de Henares,Madrid,Comunidad de Madrid,vigente,1,28005-ayuntamiento-de-alcala-de-henares,2026-10-02
 28006,Alcobendas,Madrid,Comunidad de Madrid,vigente,1,28006-zbe-alcobendas,2026-10-02
 28007,Alcorcón,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
@@ -89,16 +89,16 @@
 28074,Leganés,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
 28079,Madrid,Madrid,Comunidad de Madrid,vigente,3,28079-madrid-madrid-zbe 28079-madrid-zbedep-plaza-eliptica 28079-madrid-zbedpe-distrito-centro,2026-10-02
 28080,Majadahonda,Madrid,Comunidad de Madrid,vigente,1,28080-zbe-majadahonda,2026-10-02
-28092,Móstoles,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
-28106,Parla,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
+28092,Móstoles,Madrid,Comunidad de Madrid,en_tramite,1,28092-zbe-mostoles,2026-10-02
+28106,Parla,Madrid,Comunidad de Madrid,en_tramite,1,28106-zbe-parla,2026-10-02
 28113,Pinto,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
 28115,Pozuelo de Alarcón,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
 28123,Rivas-Vaciamadrid,Madrid,Comunidad de Madrid,vigente,1,28123-zbe-rivas-vaciamadrid,2026-10-02
 28127,Las Rozas de Madrid,Madrid,Comunidad de Madrid,vigente,8,28127-casco-urbano 28127-el-golf 28127-el-montecillo 28127-lazarejo 28127-los-castillos 28127-los-penascales-pedrosillo 28127-parque-empresarial 28127-valle-del-roncal-y-urb-coruna-xxi,2026-10-02
 28134,San Sebastián de los Reyes,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
-28148,Torrejón de Ardoz,Madrid,Comunidad de Madrid,vigente,0,,2026-10-02
+28148,Torrejón de Ardoz,Madrid,Comunidad de Madrid,vigente,1,28148-zbe-torrejon-de-ardoz,2026-10-02
 28161,Valdemoro,Madrid,Comunidad de Madrid,en_tramite,0,,2026-10-02
-28903,Tres Cantos,Madrid,Comunidad de Madrid,vigente,1,28903-zbe-tres-cantos,2026-10-02
+28903,Tres Cantos,Madrid,Comunidad de Madrid,vigente,2,28903-zbe-tres-cantos 28903-zbe-tres-cantos-avenida-de-vinuelas,2026-10-02
 29025,Benalmádena,Málaga,Andalucía,en_tramite,0,,2026-10-02
 29051,Estepona,Málaga,Andalucía,vigente,1,29051-zbe-estepona,2026-10-02
 29054,Fuengirola,Málaga,Andalucía,vigente,1,29054-zbe-fuengirola,2026-10-02
@@ -125,12 +125,12 @@
 35022,Santa Lucía de Tirajana,Las Palmas,Canarias,en_tramite,0,,2026-10-02
 35026,Telde,Las Palmas,Canarias,pendiente,0,,2026-10-02
 36038,Pontevedra,Pontevedra,Galicia,vigente,1,36038-zbe-pontevedra,2026-10-02
-36057,Vigo,Pontevedra,Galicia,en_tramite,0,,2026-10-02
+36057,Vigo,Pontevedra,Galicia,en_tramite,4,36057-zbe-vigo-bouzas 36057-zbe-vigo-calvario 36057-zbe-vigo-centro 36057-zbe-vigo-praza-de-portugal,2026-10-02
 37274,Salamanca,Salamanca,Castilla y León,vigente,1,37274-salamanca-zbe,2026-10-02
 38006,Arona,Santa Cruz de Tenerife,Canarias,en_tramite,0,,2026-10-02
 38017,Granadilla de Abona,Santa Cruz de Tenerife,Canarias,pendiente,0,,2026-10-02
 38023,San Cristóbal de La Laguna,Santa Cruz de Tenerife,Canarias,pendiente,0,,2026-10-02
-38038,Santa Cruz de Tenerife,Santa Cruz de Tenerife,Canarias,en_tramite,0,,2026-10-02
+38038,Santa Cruz de Tenerife,Santa Cruz de Tenerife,Canarias,en_tramite,1,38038-zbe-santa-cruz-de-tenerife,2026-10-02
 39075,Santander,Cantabria,Cantabria,en_tramite,1,39075-zbe-santander,2026-10-02
 39087,Torrelavega,Cantabria,Cantabria,vigente,1,39087-zbe-torrelavega,2026-10-02
 40194,Segovia,Segovia,Castilla y León,vigente,1,40194-zbe-segovia,2026-10-02
@@ -144,7 +144,7 @@
 45168,Toledo,Toledo,Castilla-La Mancha,en_tramite,0,,2026-10-02
 46131,Gandia,Valencia/València,Comunitat Valenciana,en_tramite,0,,2026-10-02
 46190,Paterna,Valencia/València,Comunitat Valenciana,en_tramite,0,,2026-10-02
-46220,Sagunt/Sagunto,Valencia/València,Comunitat Valenciana,en_tramite,0,,2026-10-02
+46220,Sagunt/Sagunto,Valencia/València,Comunitat Valenciana,en_tramite,1,46220-zbe-sagunto-ciutat-vella,2026-10-02
 46250,València,Valencia/València,Comunitat Valenciana,en_tramite,2,46250-valencia 46250-zbe-ciutat-vella,2026-10-02
 47186,Valladolid,Valladolid,Castilla y León,vigente,1,47186-valladolid,2026-10-02
 48013,Barakaldo,Bizkaia,País Vasco,en_tramite,0,,2026-10-02

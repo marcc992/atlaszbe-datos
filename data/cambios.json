@@ -2,6 +2,394 @@
  "dias": 90,
  "cambios": [
   {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "02003-zbe-albacete",
+   "nombre": "ZBE Albacete (centro)",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, aviso sin multa, desde 27/06/2026, hasta 26/09/2026, L-D 00:00–24:00 · prohibidas A, no domiciliados, desde 27/09/2026, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "03133-zbe-torrevieja",
+   "nombre": "ZBE Torrevieja (zona 1, Centro Urbano – Fachada Litoral)",
+   "campos": [],
+   "detalle": [
+    "programada; prohibidas A, desde 01/01/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "06083-zbe-merida",
+   "nombre": "ZBE Mérida",
+   "campos": [],
+   "detalle": [
+    "programada; prohibidas A, no domiciliados, aviso sin multa, desde 01/07/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "27028-zbe-lugo",
+   "nombre": "ZBE Lugo (Centro Histórico, intramuros)",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, aviso sin multa, desde 17/09/2026, hasta 17/09/2027, L-D 00:00–24:00 · solo autorizados, desde 18/09/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28092-zbe-mostoles",
+   "nombre": "ZBE Móstoles (anillo centro)",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28106-zbe-parla",
+   "nombre": "ZBE Parla",
+   "campos": [],
+   "detalle": [
+    "programada; prohibidas A, no domiciliados, aviso sin multa, desde 01/01/2025, L-D 00:00–24:00 · prohibidas B, no domiciliados, aviso sin multa, desde 01/01/2029, L-D 00:00–24:00 · prohibidas A, domiciliados, aviso sin multa, desde 01/01/2030, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "36057-zbe-vigo-centro",
+   "nombre": "ZBE Vigo Centro",
+   "campos": [],
+   "detalle": [
+    "activa; A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "36057-zbe-vigo-praza-de-portugal",
+   "nombre": "ZBE Vigo Praza de Portugal",
+   "campos": [],
+   "detalle": [
+    "activa; A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "36057-zbe-vigo-calvario",
+   "nombre": "ZBE Vigo Calvario",
+   "campos": [],
+   "detalle": [
+    "activa; A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "36057-zbe-vigo-bouzas",
+   "nombre": "ZBE Vigo Bouzas",
+   "campos": [],
+   "detalle": [
+    "activa; A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "38038-zbe-santa-cruz-de-tenerife",
+   "nombre": "ZBE Santa Cruz de Tenerife (Centro y El Toscal)",
+   "campos": [],
+   "detalle": [
+    "programada; prohibidas A, aviso sin multa, desde 15/03/2028, hasta 14/09/2029, L-S 07:00–20:00 · prohibidas A, desde 15/09/2029, L-S 07:00–20:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "46220-zbe-sagunto-ciutat-vella",
+   "nombre": "ZBE Sagunto, anillo interior (Ciutat Vella)",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas ECO, C, B, A, aviso sin multa, desde 27/10/2026, hasta 14/12/2026, L-D 00:00–24:00 · prohibidas ECO, C, B, A, desde 15/12/2026, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "02003",
+   "nombre": "Albacete",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +02003-zbe-albacete"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "03133",
+   "nombre": "Torrevieja",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +03133-zbe-torrevieja"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "06083",
+   "nombre": "Mérida",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +06083-zbe-merida"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "27028",
+   "nombre": "Lugo",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +27028-zbe-lugo"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28092",
+   "nombre": "Móstoles",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28092-zbe-mostoles"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28106",
+   "nombre": "Parla",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28106-zbe-parla"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "36057",
+   "nombre": "Vigo",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +36057-zbe-vigo-bouzas, +36057-zbe-vigo-calvario, +36057-zbe-vigo-centro, +36057-zbe-vigo-praza-de-portugal"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "38038",
+   "nombre": "Santa Cruz de Tenerife",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +38038-zbe-santa-cruz-de-tenerife"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "46220",
+   "nombre": "Sagunt/Sagunto",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +46220-zbe-sagunto-ciutat-vella"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "11022-zbe-la-linea-de-la-concepcion",
+   "nombre": "ZBE I Centro (La Línea de la Concepción)",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, aviso sin multa, desde 25/04/2025, hasta 31/01/2026, L-D 00:00–24:00 · prohibidas A, desde 01/02/2026, hasta 31/12/2026, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2027, hasta 31/12/2027, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2028, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "13034-zbe-ciudad-real-zcrs",
+   "nombre": "ZBE Ciudad Real Saludable (zona peatonal)",
+   "campos": [],
+   "detalle": [
+    "activa; solo autorizados, desde 30/12/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "14021-zbe-cordoba",
+   "nombre": "ZBE Córdoba (calles A.CI.RE. del casco histórico)",
+   "campos": [
+    "nombre",
+    "geometria"
+   ],
+   "detalle": [
+    "nombre: ZBE Córdoba → ZBE Córdoba (calles A.CI.RE. del casco histórico)",
+    "perímetro: 162 → 2573 vértices"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28148-zbe-torrejon-de-ardoz",
+   "nombre": "ZBE Torrejón de Ardoz (casco antiguo)",
+   "campos": [],
+   "detalle": [
+    "activa; prohibidas A, no domiciliados, desde 01/03/2025, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28903-zbe-tres-cantos",
+   "nombre": "ZBE 1 Avenida de Colmenar Viejo (Tres Cantos)",
+   "campos": [
+    "nombre",
+    "geometria"
+   ],
+   "detalle": [
+    "nombre: ZBE Tres Cantos → ZBE 1 Avenida de Colmenar Viejo (Tres Cantos)",
+    "perímetro: 74 → 33 vértices"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "alta",
+   "id": "28903-zbe-tres-cantos-avenida-de-vinuelas",
+   "nombre": "ZBE 2 Avenida de Viñuelas (Tres Cantos)",
+   "campos": [],
+   "detalle": [
+    "programada; prohibidas A, no domiciliados, turismos, motos, ciclomotores, autobuses, desde 01/01/2028, L-D 00:00–24:00 · prohibidas A, no domiciliados, furgonetas, camiones, desde 01/01/2028, L-V 00:00–08:00, 16:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "11022-zbe-la-linea-de-la-concepcion-parque-princesa-sofia",
+   "nombre": "ZBE II Parque Princesa Sofía (La Línea de la Concepción)",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: solo autorizados, desde 31/01/2023, L-D 00:00–24:00 → solo autorizados, desde 31/01/2023, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "11022",
+   "nombre": "La Línea de la Concepción",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +11022-zbe-la-linea-de-la-concepcion"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "13034",
+   "nombre": "Ciudad Real",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +13034-zbe-ciudad-real-zcrs"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28148",
+   "nombre": "Torrejón de Ardoz",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28148-zbe-torrejon-de-ardoz"
+   ]
+  },
+  {
+   "fecha": "2026-10-30",
+   "ambito": "municipio",
+   "tipo": "cambio",
+   "id": "28903",
+   "nombre": "Tres Cantos",
+   "campos": [
+    "zonas"
+   ],
+   "detalle": [
+    "zonas: +28903-zbe-tres-cantos-avenida-de-vinuelas"
+   ]
+  },
+  {
    "fecha": "2026-10-29",
    "ambito": "zona",
    "tipo": "alta",
