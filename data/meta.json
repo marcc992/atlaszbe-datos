@@ -1,9 +1,9 @@
 {
   "schema": "v1",
-  "dataVersion": "20261030T184916Z-6d0ce7b6",
-  "generatedAt": "2026-10-30T18:49:16.958Z",
-  "checkedAt": "2026-10-30T18:49:16.958Z",
-  "contentHash": "6d0ce7b67a8903747eb30d575cd704eee0adac033d0569c83952c9a10e8da983",
+  "dataVersion": "20261031T130949Z-696546b7",
+  "generatedAt": "2026-10-31T13:09:49.683Z",
+  "checkedAt": "2026-10-31T13:09:49.683Z",
+  "contentHash": "696546b774172efa6914de845d123aedeb380f3052096dc4945b229b9ca901f9",
   "pipelineVersion": "0.1.0",
   "baseUrl": "https://datos.atlaszbe.es/v1/",
   "counts": {
@@ -14,65 +14,65 @@
   "sources": [
     {
       "name": "nap-dgt-zbe",
-      "fetchedAt": "2026-10-30T18:49:36.575Z",
+      "fetchedAt": "2026-10-31T13:10:09.587Z",
       "fromCache": false,
       "sha256": "4102dafa62a4dac28e47c8d209f32dcd3e25e3872de0fdb2270096003ab07a21",
       "license": "CC BY 4.0"
     },
     {
       "name": "zaragoza-wfs",
-      "fetchedAt": "2026-10-30T18:49:17.350Z",
+      "fetchedAt": "2026-10-31T13:09:50.192Z",
       "fromCache": false,
-      "sha256": "992c945646baedd577aa595b5ef68fa3180c4621b2d7cc8f5af91f220d1ab2e2",
+      "sha256": "e2fae16e9ae5f93999394243e46224ecfa73feaab268c5ca9ef027685818f37d",
       "license": "Ley 37/2007 (reutilización con atribución)"
     },
     {
       "name": "valencia-apr",
-      "fetchedAt": "2026-10-30T18:49:17.554Z",
+      "fetchedAt": "2026-10-31T13:09:50.154Z",
       "fromCache": false,
       "sha256": "2791a90ed4643e064756d2bcda91a0ff9e6b47266f44b77b6ca0bd9e6696ba2e",
       "license": "CC BY 4.0"
     },
     {
       "name": "pamplona-zac",
-      "fetchedAt": "2026-10-30T18:49:17.491Z",
+      "fetchedAt": "2026-10-31T13:09:50.061Z",
       "fromCache": false,
-      "sha256": "7661352cae9b4a349cc6c14bcdd9cb5aaa210d3a1a3346cd9b94840a52ada366",
+      "sha256": "43b36e52121b6ec054dfe61bc55d3942a984896d15ff875de771b5ce2978302f",
       "license": "CC BY 3.0"
     },
     {
       "name": "getafe-zbe",
-      "fetchedAt": "2026-10-30T18:49:17.549Z",
+      "fetchedAt": "2026-10-31T13:09:50.184Z",
       "fromCache": false,
       "sha256": "b955fe34a1c7666ad34c95dd4b3cc439cfd5155f32e9e005b3936ea97262694b",
       "license": "Ley 37/2007 (reutilización con atribución)"
     },
     {
       "name": "icgc-limites",
-      "fetchedAt": "2026-10-30T18:49:17.660Z",
+      "fetchedAt": "2026-10-31T13:09:50.496Z",
       "fromCache": false,
       "sha256": "0148485593545badcd65dbff0126fb27a27e6c8ca5665f8b3e69c22f4ad2c452",
       "license": "Ley 37/2007 (reutilización citando al ICGC)"
     },
     {
       "name": "miteco-zbe",
-      "fetchedAt": "2026-10-30T18:49:17.454Z",
+      "fetchedAt": "2026-10-31T13:09:50.146Z",
       "fromCache": false,
       "sha256": "d2da844eedca83d0e8c32fe033ccf42952cb455fbd8abbce5793ede06fa69690",
       "license": "citando la fuente (MITECO)"
     },
     {
       "name": "miteco-perimetros",
-      "fetchedAt": "2026-10-30T18:49:17.563Z",
+      "fetchedAt": "2026-10-31T13:09:50.168Z",
       "fromCache": false,
       "sha256": "c3f46d02ea89535bee9de94d7dfd5b81813026c47082bc5b0a799f2e12d69b8f",
       "license": "Ley 37/2007 (MITECO)"
     },
     {
       "name": "osm-overpass",
-      "fetchedAt": "2026-10-30T18:52:05.369Z",
+      "fetchedAt": "2026-10-31T13:10:19.350Z",
       "fromCache": false,
-      "sha256": "2f19ad24574c9c12cee56bb483537d60e3fdf2f0449a624c5a9562921adb8b9d",
+      "sha256": "8db823b05c84afcf5f77e3d9c1bfa3e90738b599edbf432abdf8d0ac0e2777ce",
       "license": "ODbL 1.0"
     }
   ],

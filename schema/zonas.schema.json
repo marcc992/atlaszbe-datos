@@ -334,6 +334,9 @@
                           "type": "string",
                           "minLength": 1
                         },
+                        "descartado": {
+                          "type": "boolean"
+                        },
                         "fuentes": {
                           "minItems": 1,
                           "type": "array",

@@ -2,6 +2,149 @@
  "dias": 90,
  "cambios": [
   {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "29067-ayuntamiento-de-malaga-zbe",
+   "nombre": "Ayuntamiento de Malaga ZBE",
+   "campos": [
+    "editorial.calendario"
+   ],
+   "detalle": [
+    "calendario: hitos reescritos"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08187-sabadell",
+   "nombre": "Sabadell",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 01/12/2025, L-V 07:00–20:00 no festivos → prohibidas A, desde 01/12/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "29901-torremolinos",
+   "nombre": "Torremolinos",
+   "campos": [
+    "urlOficial"
+   ],
+   "detalle": [
+    "URL oficial: http://www.torremolinos.es/zbe-zonas-de-bajas-emisiones/ → https://www.torremolinos.es/zbe-zonas-de-bajas-emisiones/"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "14021-zbe-cordoba",
+   "nombre": "ZBE Córdoba (calles A.CI.RE. del casco histórico)",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas C, B, A, desde 18/02/2023, L-D 00:00–24:00 → prohibidas C, B, A, desde 18/02/2023, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "27028-zbe-lugo",
+   "nombre": "ZBE Lugo (Centro Histórico, intramuros)",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: solo autorizados, aviso sin multa, desde 17/09/2026, hasta 17/09/2027, L-D 00:00–24:00 · solo autorizados, desde 18/09/2027, L-D 00:00–24:00 → solo autorizados, aviso sin multa, desde 17/09/2026, hasta 17/09/2027, L-D 00:00–24:00 · solo autorizados, desde 18/09/2027, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "36057-zbe-vigo-centro",
+   "nombre": "ZBE Vigo Centro",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00 → A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "36057-zbe-vigo-praza-de-portugal",
+   "nombre": "ZBE Vigo Praza de Portugal",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00 → A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "36057-zbe-vigo-calvario",
+   "nombre": "ZBE Vigo Calvario",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00 → A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "36057-zbe-vigo-bouzas",
+   "nombre": "ZBE Vigo Bouzas",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00 → A solo para aparcar, aviso sin multa, desde 10/09/2026, hasta 09/09/2027, L-D 00:00–24:00 · A solo para aparcar, desde 10/09/2027, L-D 00:00–24:00 · B solo para aparcar, aviso sin multa, desde 10/09/2028, hasta 09/09/2029, L-D 00:00–24:00 · B solo para aparcar, desde 10/09/2029, L-D 00:00–24:00 · C solo para aparcar, aviso sin multa, desde 10/09/2030, hasta 09/09/2031, L-D 00:00–24:00 · C solo para aparcar, desde 10/09/2031, L-D 00:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "28903-zbe-tres-cantos-avenida-de-vinuelas",
+   "nombre": "ZBE 2 Avenida de Viñuelas (Tres Cantos)",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, turismos, motos, ciclomotores, autobuses, desde 01/01/2028, L-D 00:00–24:00 · prohibidas A, no domiciliados, furgonetas, camiones, desde 01/01/2028, L-V 00:00–08:00, 16:00–24:00 → prohibidas A, no domiciliados, turismos, motos, ciclomotores, autobuses, desde 01/01/2028, L-D 00:00–24:00 · prohibidas A, no domiciliados, furgonetas, camiones, desde 01/01/2028, L-V 00:00–08:00, 16:00–24:00"
+   ]
+  },
+  {
+   "fecha": "2026-10-31",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "04013-zbe-almeria",
+   "nombre": "ZBE Almería",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 01/01/2025, L-V 08:00–20:00 no festivos → prohibidas A, no domiciliados, desde 01/01/2025, L-V 08:00–20:00 no festivos"
+   ]
+  },
+  {
    "fecha": "2026-10-30",
    "ambito": "zona",
    "tipo": "cambio",
