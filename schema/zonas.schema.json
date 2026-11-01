@@ -1064,6 +1064,13 @@
               "type",
               "coordinates"
             ]
+          },
+          "geometriaPrecision": {
+            "type": "string",
+            "enum": [
+              "oficial",
+              "aproximada"
+            ]
           }
         },
         "required": [
@@ -1081,7 +1088,8 @@
           "urlOficial",
           "avisos",
           "verificadoEl",
-          "geometria"
+          "geometria",
+          "geometriaPrecision"
         ]
       }
     }
