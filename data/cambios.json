@@ -8,6 +8,19 @@
    "id": "36038-zbe-pontevedra",
    "nombre": "ZBE Pontevedra",
    "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-11-06",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "36038-zbe-pontevedra",
+   "nombre": "ZBE Pontevedra",
+   "campos": [
     "estado",
     "estadoSancion",
     "confianza",
