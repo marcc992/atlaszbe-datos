@@ -41,7 +41,7 @@
 08266,Cerdanyola del Vallès,Barcelona,Cataluña,vigente,1,08266-cerdanyola-del-valles,2026-10-02
 08279,Terrassa,Barcelona,Cataluña,vigente,1,08279-zbe-terrassa,2026-10-02
 08301,Viladecans,Barcelona,Cataluña,vigente,1,08301-zbe-viladecans,2026-10-02
-08307,Vilanova i la Geltrú,Barcelona,Cataluña,en_tramite,0,,2026-10-02
+08307,Vilanova i la Geltrú,Barcelona,Cataluña,en_tramite,1,08307-zbe-vilanova-i-la-geltru,2026-10-02
 09059,Burgos,Burgos,Castilla y León,vigente,1,09059-zbe-burgos,2026-10-02
 10037,Cáceres,Cáceres,Extremadura,vigente,1,10037-zbe-caceres,2026-10-02
 11004,Algeciras,Cádiz,Andalucía,en_tramite,0,,2026-10-02
@@ -126,12 +126,12 @@
 35026,Telde,Las Palmas,Canarias,pendiente,0,,2026-10-02
 36038,Pontevedra,Pontevedra,Galicia,vigente,1,36038-zbe-pontevedra,2026-10-02
 36057,Vigo,Pontevedra,Galicia,en_tramite,4,36057-zbe-vigo-bouzas 36057-zbe-vigo-calvario 36057-zbe-vigo-centro 36057-zbe-vigo-praza-de-portugal,2026-10-02
-37274,Salamanca,Salamanca,Castilla y León,vigente,1,37274-salamanca-zbe,2026-10-02
+37274,Salamanca,Salamanca,Castilla y León,vigente,2,37274-salamanca-zbe 37274-zbe-2-salamanca,2026-10-02
 38006,Arona,Santa Cruz de Tenerife,Canarias,en_tramite,0,,2026-10-02
 38017,Granadilla de Abona,Santa Cruz de Tenerife,Canarias,pendiente,0,,2026-10-02
 38023,San Cristóbal de La Laguna,Santa Cruz de Tenerife,Canarias,pendiente,0,,2026-10-02
 38038,Santa Cruz de Tenerife,Santa Cruz de Tenerife,Canarias,en_tramite,1,38038-zbe-santa-cruz-de-tenerife,2026-10-02
-39075,Santander,Cantabria,Cantabria,en_tramite,0,,2026-10-02
+39075,Santander,Cantabria,Cantabria,en_tramite,1,39075-zbe-santander,2026-10-02
 39087,Torrelavega,Cantabria,Cantabria,vigente,1,39087-zbe-torrelavega,2026-10-02
 40194,Segovia,Segovia,Castilla y León,vigente,1,40194-zbe-segovia,2026-10-02
 41004,Alcalá de Guadaíra,Sevilla,Andalucía,vigente,1,41004-zbe-alcala-de-guadaira,2026-10-02
@@ -140,7 +140,7 @@
 41095,Utrera,Sevilla,Andalucía,en_tramite,0,,2026-10-02
 43123,Reus,Tarragona,Cataluña,vigente,1,43123-zbe-reus,2026-10-02
 43148,Tarragona,Tarragona,Cataluña,en_tramite,1,43148-zbe-tarragona,2026-10-02
-45165,Talavera de la Reina,Toledo,Castilla-La Mancha,en_tramite,0,,2026-10-02
+45165,Talavera de la Reina,Toledo,Castilla-La Mancha,en_tramite,2,45165-zbe-1-talavera 45165-zbe-2-talavera,2026-10-02
 45168,Toledo,Toledo,Castilla-La Mancha,en_tramite,0,,2026-10-02
 46131,Gandia,Valencia/València,Comunitat Valenciana,en_tramite,0,,2026-10-02
 46190,Paterna,Valencia/València,Comunitat Valenciana,en_tramite,0,,2026-10-02

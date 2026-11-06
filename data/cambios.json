@@ -4,123 +4,25 @@
   {
    "fecha": "2026-11-06",
    "ambito": "zona",
-   "tipo": "cambio",
-   "id": "09059-zbe-burgos",
-   "nombre": "ZBE Burgos",
-   "campos": [
-    "geometria"
-   ],
-   "detalle": [
-    "perímetro: 374 → 366 vértices"
-   ]
-  },
-  {
-   "fecha": "2026-11-06",
-   "ambito": "zona",
-   "tipo": "cambio",
-   "id": "39087-zbe-torrelavega",
-   "nombre": "ZBE Torrelavega",
-   "campos": [
-    "geometria"
-   ],
-   "detalle": [
-    "perímetro: 125 → 60 vértices"
-   ]
-  },
-  {
-   "fecha": "2026-11-06",
-   "ambito": "zona",
-   "tipo": "cambio",
-   "id": "08056-zbe-castelldefels",
-   "nombre": "ZBE Castelldefels",
-   "campos": [
-    "geometria"
-   ],
-   "detalle": [
-    "perímetro: 185 → 63 vértices"
-   ]
-  },
-  {
-   "fecha": "2026-11-06",
-   "ambito": "zona",
-   "tipo": "baja",
-   "id": "08307-zbe-vilanova-i-la-geltru",
-   "nombre": "ZBE Vilanova i la Geltrú",
+   "tipo": "alta",
+   "id": "37274-zbe-2-salamanca",
+   "nombre": "ZBE 2 Zona Centro (Salamanca)",
    "campos": [],
    "detalle": [
-    "deja de publicarse (estaba activa)"
-   ]
-  },
-  {
-   "fecha": "2026-11-06",
-   "ambito": "zona",
-   "tipo": "baja",
-   "id": "39075-zbe-santander",
-   "nombre": "ZBE Santander",
-   "campos": [],
-   "detalle": [
-    "deja de publicarse (estaba activa)"
-   ]
-  },
-  {
-   "fecha": "2026-11-06",
-   "ambito": "zona",
-   "tipo": "baja",
-   "id": "45165-zbe-1-talavera",
-   "nombre": "ZBE 1 Trinidad (Talavera de la Reina)",
-   "campos": [],
-   "detalle": [
-    "deja de publicarse (estaba activa)"
-   ]
-  },
-  {
-   "fecha": "2026-11-06",
-   "ambito": "zona",
-   "tipo": "baja",
-   "id": "45165-zbe-2-talavera",
-   "nombre": "ZBE 2 Casco Histórico (Talavera de la Reina)",
-   "campos": [],
-   "detalle": [
-    "deja de publicarse (estaba activa)"
+    "programada; prohibidas A, desde 01/01/2029, hasta 31/12/2033, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2034, hasta 31/12/2038, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2039, L-D 00:00–24:00"
    ]
   },
   {
    "fecha": "2026-11-06",
    "ambito": "municipio",
    "tipo": "cambio",
-   "id": "08307",
-   "nombre": "Vilanova i la Geltrú",
+   "id": "37274",
+   "nombre": "Salamanca",
    "campos": [
     "zonas"
    ],
    "detalle": [
-    "zonas: −08307-zbe-vilanova-i-la-geltru"
-   ]
-  },
-  {
-   "fecha": "2026-11-06",
-   "ambito": "municipio",
-   "tipo": "cambio",
-   "id": "39075",
-   "nombre": "Santander",
-   "campos": [
-    "zonas"
-   ],
-   "detalle": [
-    "zonas: −39075-zbe-santander"
-   ]
-  },
-  {
-   "fecha": "2026-11-06",
-   "ambito": "municipio",
-   "tipo": "cambio",
-   "id": "45165",
-   "nombre": "Talavera de la Reina",
-   "campos": [
-    "zonas"
-   ],
-   "detalle": [
-    "zonas: −45165-zbe-1-talavera, −45165-zbe-2-talavera"
+    "zonas: +37274-zbe-2-salamanca"
    ]
   },
   {
