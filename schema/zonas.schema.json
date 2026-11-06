@@ -146,6 +146,13 @@
                     "solo_aparcamiento"
                   ]
                 },
+                "alcance": {
+                  "type": "string",
+                  "enum": [
+                    "zona",
+                    "calles_senalizadas"
+                  ]
+                },
                 "etiquetas": {
                   "anyOf": [
                     {
@@ -299,6 +306,7 @@
               },
               "required": [
                 "acceso",
+                "alcance",
                 "etiquetas",
                 "perfil",
                 "vehiculos",
