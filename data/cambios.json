@@ -4,6 +4,32 @@
   {
    "fecha": "2026-11-09",
    "ambito": "zona",
+   "tipo": "cambio",
+   "id": "37274-salamanca-zbe",
+   "nombre": "ZBE 1 Zona Monumental (Salamanca)",
+   "campos": [
+    "nombre"
+   ],
+   "detalle": [
+    "nombre: Salamanca ZBE → ZBE 1 Zona Monumental (Salamanca)"
+   ]
+  },
+  {
+   "fecha": "2026-11-09",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "37274-zbe-2-salamanca",
+   "nombre": "ZBE 2 Zona Centro (Salamanca)",
+   "campos": [
+    "editorial"
+   ],
+   "detalle": [
+    "ficha editorial publicada"
+   ]
+  },
+  {
+   "fecha": "2026-11-09",
+   "ambito": "zona",
    "tipo": "alta",
    "id": "42173-zbe-soria",
    "nombre": "Bajas Emisiones Soria (BES)",
