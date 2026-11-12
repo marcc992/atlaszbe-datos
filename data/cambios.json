@@ -5,6 +5,159 @@
    "fecha": "2026-11-12",
    "ambito": "zona",
    "tipo": "cambio",
+   "id": "17079-zbe-girona",
+   "nombre": "ZBE Girona",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 15/09/2025, L-V 07:00–20:00 no festivos → A con condiciones, no domiciliados, desde 15/09/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08096-granollers",
+   "nombre": "Granollers",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 31/12/2025, L-V 07:00–20:00 no festivos → A con condiciones, desde 31/12/2025, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "25120-zbe-lleida",
+   "nombre": "ZBE Lleida",
+   "campos": [
+    "reglas",
+    "editorial.resumen"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, aviso sin multa, desde 01/01/2025, hasta 30/06/2025, L-V 07:00–20:00 no festivos · A con condiciones, no domiciliados, desde 01/07/2025, hasta 31/12/2025, L-V 07:00–20:00 no festivos · A con condiciones, no domiciliados, desde 01/01/2026, hasta 31/12/2027, L-V 07:00–20:00 no festivos · prohibidas B, solo en episodios de contaminación, desde 01/01/2026, L-V 07:00–20:00 no festivos · B, A con condiciones, no domiciliados, desde 01/01/2028, L-V 07:00–20:00 no festivos → prohibidas A, no domiciliados, aviso sin multa, desde 01/01/2025, hasta 30/06/2025, L-V 07:00–20:00 no festivos · A con condiciones, no domiciliados, desde 01/07/2025, hasta 31/12/2025, L-V 07:00–20:00 no festivos · A con condiciones, no domiciliados, desde 01/01/2026, hasta 31/12/2027, L-V 07:00–20:00 no festivos · prohibidas B, solo en episodios de contaminación, desde 01/01/2026, L-V 07:00–20:00 no festivos · B, A con condiciones, no domiciliados, desde 01/01/2028, L-V 07:00–20:00 no festivos",
+    "resumen: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08121-zbe-mataro",
+   "nombre": "ZBE Mataró",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 09/12/2025, L-V 07:00–20:00 no festivos · prohibidas B, A, desde 01/12/2028, L-V 07:00–20:00 no festivos → A con condiciones, desde 09/12/2025, L-V 07:00–20:00 no festivos · prohibidas B, A, desde 01/12/2028, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "43123-zbe-reus",
+   "nombre": "ZBE Reus",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, desde 01/12/2025, hasta 30/12/2027, L-V 07:00–19:00 no festivos · prohibidas B, A, desde 31/12/2027, L-V 07:00–19:00 no festivos → A con condiciones, no domiciliados, desde 01/12/2025, hasta 30/12/2027, L-V 07:00–19:00 no festivos · B, A con condiciones, desde 31/12/2027, L-V 07:00–19:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08184-zbe-rubi",
+   "nombre": "ZBE Rubí",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, desde 31/12/2025, L-V 07:00–20:00 no festivos · prohibidas B, diésel, solo en episodios de contaminación, desde 01/01/2026, L-V 07:00–20:00 no festivos · prohibidas B, A, desde 01/01/2028, L-V 07:00–20:00 no festivos → A con condiciones, desde 31/12/2025, L-V 07:00–20:00 no festivos · prohibidas B, diésel, solo en episodios de contaminación, desde 01/01/2026, L-V 07:00–20:00 no festivos · prohibidas B, A, desde 01/01/2028, L-V 07:00–20:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08187-sabadell",
+   "nombre": "Sabadell",
+   "campos": [
+    "reglas",
+    "editorial.resumen"
+   ],
+   "detalle": [
+    "reglas: A con condiciones, desde 01/12/2025, L-V 07:00–20:00 no festivos → A con condiciones, desde 01/12/2025, L-V 07:00–20:00 no festivos",
+    "resumen: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "43148-zbe-tarragona",
+   "nombre": "ZBE Tarragona",
+   "campos": [
+    "reglas",
+    "editorial.resumen"
+   ],
+   "detalle": [
+    "reglas: A solo para aparcar, no domiciliados, desde 31/12/2025, hasta 31/12/2026, L-V 07:00–19:00 no festivos · A solo para aparcar, desde 01/01/2027, L-V 07:00–19:00 no festivos → A con condiciones, no domiciliados, desde 31/12/2025, hasta 31/12/2026, L-V 07:00–19:00 no festivos · A con condiciones, desde 01/01/2027, L-V 07:00–19:00 no festivos",
+    "resumen: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08279-zbe-terrassa",
+   "nombre": "ZBE Terrassa",
+   "campos": [
+    "reglas",
+    "editorial.resumen"
+   ],
+   "detalle": [
+    "reglas: A solo para aparcar, desde 01/12/2025, L-V 07:00–20:00 no festivos → A con condiciones, desde 01/12/2025, L-V 07:00–20:00 no festivos",
+    "resumen: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "08307-zbe-vilanova-i-la-geltru",
+   "nombre": "ZBE Vilanova i la Geltrú",
+   "campos": [
+    "reglas",
+    "editorial.resumen"
+   ],
+   "detalle": [
+    "reglas: prohibidas A, no domiciliados, turismos, motos, ciclomotores, desde 01/07/2026, L-V 07:00–20:00 no festivos · prohibidas A, no domiciliados, furgonetas, camiones, autobuses, desde 01/07/2027, L-V 07:00–20:00 no festivos → A con condiciones, no domiciliados, turismos, motos, ciclomotores, desde 01/07/2026, L-V 07:00–20:00 no festivos · A con condiciones, no domiciliados, furgonetas, camiones, autobuses, desde 01/07/2027, L-V 07:00–20:00 no festivos",
+    "resumen: actualizado"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "39087-zbe-torrelavega",
+   "nombre": "ZBE Torrelavega",
+   "campos": [
+    "reglas"
+   ],
+   "detalle": [
+    "reglas: A con condiciones, aviso sin multa, desde 09/08/2024, hasta 09/06/2025, L-S 00:00–24:00 no festivos · A con condiciones, desde 10/06/2025, L-S 00:00–24:00 no festivos → A con condiciones, aviso sin multa, desde 09/08/2024, hasta 09/06/2025, L-S 00:00–24:00 no festivos · A con condiciones, desde 10/06/2025, L-S 00:00–24:00 no festivos"
+   ]
+  },
+  {
+   "fecha": "2026-11-12",
+   "ambito": "zona",
+   "tipo": "cambio",
    "id": "25120-zbe-lleida",
    "nombre": "ZBE Lleida",
    "campos": [
