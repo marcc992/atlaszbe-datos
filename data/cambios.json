@@ -2,6 +2,21 @@
  "dias": 90,
  "cambios": [
   {
+   "fecha": "2026-11-14",
+   "ambito": "zona",
+   "tipo": "cambio",
+   "id": "11022-zbe-la-linea-de-la-concepcion",
+   "nombre": "ZBE I Centro (La Línea de la Concepción)",
+   "campos": [
+    "estadoSancion",
+    "reglas"
+   ],
+   "detalle": [
+    "para quien conduce: sanciona → aviso",
+    "reglas: prohibidas A, aviso sin multa, desde 25/04/2025, hasta 31/01/2026, L-D 00:00–24:00 · prohibidas A, desde 01/02/2026, hasta 31/12/2026, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2027, hasta 31/12/2027, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2028, L-D 00:00–24:00 → prohibidas A, aviso sin multa, desde 25/04/2025, hasta 31/01/2026, L-D 00:00–24:00 · prohibidas A, aviso sin multa, desde 01/02/2026, hasta 14/11/2026, L-D 00:00–24:00 · prohibidas A, desde 15/11/2026, hasta 31/12/2026, L-D 00:00–24:00 · prohibidas B, A, desde 01/01/2027, hasta 31/12/2027, L-D 00:00–24:00 · prohibidas C, B, A, desde 01/01/2028, L-D 00:00–24:00"
+   ]
+  },
+  {
    "fecha": "2026-11-12",
    "ambito": "zona",
    "tipo": "cambio",
